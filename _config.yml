@@ -11,16 +11,16 @@ email: wabarr@gmail.com
 #blog logo
 logo:
 # blog cover
-cover: "/assets/images/savannah.jpg"
+cover: "/personal/assets/images/savannah.jpg"
 
 name: 'W. Andrew Barr'
 author: 'W. Andrew Barr'
-author_image: "/assets/images/author.jpg"
+author_image: "/personal/assets/images/author.jpg"
 
 paginate:	5
 
-url: "http://wabarr.***.***" # the base hostname & protocol for your site
-baseurl: ""
+url: "http://wabarr.github.io" # the base hostname & protocol for your site
+baseurl: "/personal"
 
 # social icons and sharing options
 social:
