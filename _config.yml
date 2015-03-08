@@ -11,11 +11,11 @@ email: wabarr@gmail.com
 #blog logo
 logo:
 # blog cover
-cover: "/assets/images/savannah.jpg"
+cover: "/personal/assets/images/savannah.jpg"
 
 name: 'W. Andrew Barr'
 author: 'W. Andrew Barr'
-author_image: "/assets/images/author.jpg"
+author_image: "/personal/assets/images/author.jpg"
 
 paginate:	5
 
