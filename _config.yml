@@ -5,7 +5,7 @@ highlighter: pygments
 # Site settings
 title: "W. Andrew Barr"
 description: > # this means to ignore newlines until "email:"
-   Paleoecology, human evolution, academic computing
+   paleoecology, human evolution, academic computing
 
 email: wabarr@gmail.com
 #blog logo
