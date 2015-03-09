@@ -4,7 +4,11 @@ permalink: /CV/
 title: "Barr - Curriculum Vitae"
 ---
 
+<h1 style="padding-bottom:20px;">Current Position</h1>
 
+**PostDoctoral Scientist**
+
+Center for the Advance Study of Human Paleobiology. Dept of Anthropology. The George Washington University. 
 
 <h1 style="padding-bottom:20px;">Education</h1>
 
@@ -14,15 +18,6 @@ title: "Barr - Curriculum Vitae"
 
 **BS - 2005 - Tulane University**. Anthropology, French. Cum laude.
 
-
-<h1 style="padding-bottom:20px;">Funding and Awards</h1>
-
-{% for award in site.data.CV_funding %}
-
-**{{ award.year }} - {{ award.name }}** - {{ award.grantor}}{% if award.purpose %} {{ award.purpose }}{% endif %}. ${{award.amount}}
-
-{% endfor %}
-
 <h1 style="padding-bottom:20px;">Peer Reviewed Publications</h1>
 
 {% for pub in site.data.CV_pubs %}
@@ -30,3 +25,12 @@ title: "Barr - Curriculum Vitae"
 **{{pub.year}}** - {{pub.authors}}. {{pub.title}}. *{{pub.journal}}*. {%if pub.volume %}{{pub.volume}}{% endif %}{%if pub.pages %}:{{pub.pages}}.{% endif %} [{{pub.doi}}](http://dx.doi.org/{{pub.doi}})
 
 {% endfor%}
+
+<h1 style="padding-bottom:20px;">Funding and Awards</h1>
+
+{% for award in site.data.CV_funding %}
+
+**{{ award.year }} - {{ award.name }}** - {{ award.grantor}}{% if award.purpose %} {{ award.purpose }}{% endif %}. {% if award.amount %}${{award.amount}}{% endif %}
+
+{% endfor %}
+
