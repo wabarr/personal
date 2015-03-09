@@ -1,0 +1,13 @@
+---
+layout: post
+title: Your own private github
+date: '2013-08-17T10:10:00.000-05:00'
+author: Andrew Barr
+tags:
+- R Tips
+modified_time: '2013-08-17T10:10:41.837-05:00'
+blogger_id: tag:blogger.com,1999:blog-9204176314411862946.post-3688542825486164447
+blogger_orig_url: http://www.ancienteco.com/2013/08/your-own-private-github.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on"><ol style="text-align: left;"><li>Set up a git application on webfaction with their 1-click installer. &nbsp;<a href="http://docs.webfaction.com/software/git.html">More info on that here</a>.</li><li>Once you have git web application serving up central repositories, change your working directory to the folder where your repositories will live and create an empty directory&nbsp;<span style="font-family: 'Courier New', Courier, monospace;">mkdir test_repo.git</span></li><li><span style="font-family: inherit;">Then </span><span style="font-family: Courier New, Courier, monospace;">cd test_repo.git </span><span style="font-family: inherit;">and </span><span style="font-family: Courier New, Courier, monospace;">git --bare init</span><span style="font-family: inherit;">&nbsp;to initialize the folder as a "bare" repository. &nbsp;Git is a distributed VCS, meaning that under many use-cases, there is no centralized repository. &nbsp;If you want to use git with a centralized repo, then you create a &nbsp;special "bare" repo, which has no "working tree" of files like a normal repository. &nbsp;You interact with a bare repo by pulling from it or pushing from it. &nbsp;Finally, do</span><span style="font-family: Courier New, Courier, monospace;"> git config http.receivepack true</span><span style="font-family: inherit;"> to allow http access.</span></li><li><span style="font-family: inherit;">Now, open the client application that you want to use. &nbsp;In this case, lets do Rstudio.&nbsp;</span></li><li><span style="font-family: inherit;">In Rstudio, VCS only works when you are using Rstudio "projects", rather than simply creating text files for scripts. &nbsp;So lets start a new project from the "Project &gt; Create Project" menu. &nbsp;Choose the option to "check out project from version control" and then chose "git". Enter the URL to the repository on your webfaction git web application, in my case </span><span style="font-family: Courier New, Courier, monospace;">http://git.ancienteco.com/test_repo.git.</span></li><li>Rstudio clones the remote repository into your new project folder. &nbsp;In this case, there are no files in it yet, but we can change that with our local machine</li><li>Create a new R script file in Rstudio, and add some code. &nbsp;Then save it. &nbsp;</li></ol><div><br /></div></div>

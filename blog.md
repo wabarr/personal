@@ -1,5 +1,9 @@
 ---
 layout: blog
+title: Ancient Eco
 permalink: /blog/
-title: Blog...Coming Soon
 ---
+
+{% for post in site.posts %}
+{{post.title}}
+{% endfor %}

@@ -1,0 +1,14 @@
+---
+layout: post
+title: Graphical message boxes with R package tcltk
+date: '2012-02-29T09:37:00.002-06:00'
+author: Andrew Barr
+tags:
+- R Tips
+modified_time: '2012-02-29T16:14:52.338-06:00'
+thumbnail: http://1.bp.blogspot.com/-wEzdvyPSPu4/T05EqwOj58I/AAAAAAAAItA/dDM7JwOMJps/s72-c/messagebox.jpg
+blogger_id: tag:blogger.com,1999:blog-9204176314411862946.post-8275849729156221860
+blogger_orig_url: http://www.ancienteco.com/2012/02/graphical-message-boxes-with-r-package.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on"><div style="text-align: justify;">Sometimes you just need a graphical messagebox....know what I mean?  If only because it pops up in front of all the other open windows and  alerts you to the fact that your R script is waiting for you to do  something, or is finished doing something else.</div><br /><div style="text-align: justify;">The R  package "tcltk" is the easiest way I have found to do this.&nbsp; On Mac OSX  you need to first install the Universal Tcl/Tk for X11(<a href="http://cran.r-project.org/bin/macosx/tools/">available here</a>).&nbsp; I haven't tried it on Windows, but I don't think this extra step is necessary.&nbsp; Now just install the R package "tcltk" in the normal way, for example<br /><br /><span style="font-family: &quot;Courier New&quot;,Courier,monospace;">install.packages("tcltk")</span><br /><span style="font-family: &quot;Courier New&quot;,Courier,monospace;">library("tcltk") </span></div><br />Now you should have access to functions like this.....<br /><span style="font-family: &quot;Courier New&quot;,Courier,monospace;">tk_messageBox(type="ok",message="I am a tkMessageBox!")</span><br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-wEzdvyPSPu4/T05EqwOj58I/AAAAAAAAItA/dDM7JwOMJps/s1600/messagebox.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-wEzdvyPSPu4/T05EqwOj58I/AAAAAAAAItA/dDM7JwOMJps/s1600/messagebox.jpg" /></a></div><br />There are different types of messagebox (yesno, okcancel, etc). See <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">?tk_messageBox</span>.</div>
