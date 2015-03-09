@@ -1,13 +1,12 @@
 ---
 layout: page
 permalink: /CV/
-title: CV
+title: "Barr - Curriculum Vitae"
 ---
 
-# W. Andrew Barr
 
 
-# Education
+<h1 style="padding-bottom:20px;">Education</h1>
 
 **PhD - 2014 - University of Texas at Austin**. Anthropology.
 
@@ -15,10 +14,19 @@ title: CV
 
 **BS - 2005 - Tulane University**. Anthropology, French. Cum laude.
 
-# Peer Reviewed Publications
+
+<h1 style="padding-bottom:20px;">Funding and Awards</h1>
+
+{% for award in site.data.CV_funding %}
+
+**{{ award.year }} - {{ award.name }}** - {{ award.grantor}}{% if award.purpose %} {{ award.purpose }}{% endif %}. ${{award.amount}}
+
+{% endfor %}
+
+<h1 style="padding-bottom:20px;">Peer Reviewed Publications</h1>
 
 {% for pub in site.data.CV_pubs %}
 
-**{{pub.year}}** - {{pub.authors}}. {{pub.title}}. *{{pub.journal}}*. {{pub.volume}}:{{pub.pages}}. [{{pub.doi}}](http://dx.doi.org/{{pub.doi}})
+**{{pub.year}}** - {{pub.authors}}. {{pub.title}}. *{{pub.journal}}*. {%if pub.volume %}{{pub.volume}}{% endif %}{%if pub.pages %}:{{pub.pages}}.{% endif %} [{{pub.doi}}](http://dx.doi.org/{{pub.doi}})
 
 {% endfor%}
