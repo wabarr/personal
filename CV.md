@@ -4,10 +4,6 @@ permalink: /CV/
 title: "Barr - Curriculum Vitae"
 ---
 
-<a href="{{site.baseurl}}/assets/CV/WAB_CV.pdf">PDF Version of CV</a>
-
-<span id="CV-Content-To-Extract">
-
 <h1 style="padding-bottom:20px;">Current Position</h1>
 
 **PostDoctoral Scientist**
@@ -59,5 +55,3 @@ Center for the Advance Study of Human Paleobiology. Dept of Anthropology. The Ge
 American Association of Physical Anthropologists
 
 Paleoanthropology Society
-
-</span>
