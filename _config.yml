@@ -17,10 +17,10 @@ name: 'W. Andrew Barr'
 author: 'W. Andrew Barr'
 author_image: "/personal/assets/images/author.jpg"
 
-permalink: /blog/:categories/:year/:month/:day/:title.html
+permalink: /ancienteco/:categories/:year/:month/:day/:title.html
 
 paginate: 15
-paginate_path: "/blog/page:num"
+paginate_path: "/ancienteco/page:num"
 
 url: "http://wabarr.github.io" # the base hostname & protocol for your site
 baseurl: "/personal"
