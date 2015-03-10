@@ -1,4 +1,61 @@
-prof_meetings:
+published:
+    - date: 2013
+      authors: Barr, WA
+      title: "Ecomorphology of the bovid astragalus: body size, function, phylogeny and paleoenvironmental reconstruction"
+      journal: American Journal of Physical Anthropology
+      volume: 150
+      pages: 74
+      doi: 10.6084/m9.figshare.828727
+    - date: 2012
+      authors: Barr, WA
+      title: "Ecomorphology in a phylogenetic statistical context: a case study using the bovid femur"
+      journal: American Journal of Physical Anthropology
+      volume: 147
+      pages: 90-91
+      doi: ~
+    - date: 2012
+      authors: Scott, RS and Barr, WA
+      title: "Ecomorphology and phylogeny among the Bovidae: implications for habitat reconstruction"
+      journal: American Journal of Physical Anthropology
+      volume: ~
+      pages: ~
+      doi: ~
+    - date: 2012
+      authors: Kappelman, JK, Keane P, Reed D, Tenbarge J, Witzel A, Barr WA, Nachman BA, Russo GA
+      title: "eFossils.org: a collaborative website and community database for the study of human evolution"
+      journal: American Journal of Physical Anthropology
+      volume: ~
+      pages: ~
+      doi: ~
+    - date: 2011
+      authors: Reed DN, McPherron S, Barr WA, Alemseged Z, Bobe R, Geraads D, and Wynn J
+      title: "A new GPS data collection methodology and data schema for integrating multiple project databases: examples from the Dikika Research Project geodatabase"
+      journal: American Journal of Physical Anthropology
+      volume: 144
+      pages: 249-250
+      doi: ~
+    - date: 2009
+      authors:  Barr, WA & Reed, DN
+      title: "Coping with taxonomic ambiguity and inter-observer variation in paleontological and paleoanthropological analyses"
+      journal: American Journal of Physical Anthropology
+      volume: 144
+      pages: 249-250
+      doi: ~
+    - date: 2009
+      authors: Toborowsky, CJ & Barr, WA & Lewis, RJ
+      title: "Does environmental unpredictability drive lemur life histories?"
+      journal: American Journal of Physical Anthropology
+      volume: ~
+      pages: ~
+      doi: ~
+    - date: 2008
+      authors: Barr, WA
+      title: "The effects of allometric scaling patterns on the template method for estimating dimorphism"
+      journal: American Journal of Physical Anthropology
+      volume: ~
+      pages: ~
+      doi: ~
+      
 no_abstract:
 invited:
     - date: 2013

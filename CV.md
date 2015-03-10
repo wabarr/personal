@@ -50,6 +50,19 @@ Center for the Advance Study of Human Paleobiology. Dept of Anthropology. The Ge
 
 {% endfor %}
 
+<h1 style="padding-bottom:20px;">Scholarly Presentations</h1>
+
+<h3>Conference Presentations with Published Abstracts</h3>
+{% for pres in site.data.CV_presentations.published%}
+**{{pres.date}}** - {{pres.authors}}. {{pres.title}}. *{{pres.journal}}*. {%if pres.volume%}{{pres.volume}}{%endif%}{%if pres.pages%}:{{pres.pages}}.{%endif%}
+{% endfor%}
+
+
+<h3>Invited Talks and Guest Lectures</h3>
+{% for pres in site.data.CV_presentations.invited %}
+**{{pres.date}}** - {{pres.details}}
+{% endfor %}
+
 <h1 style="padding-bottom:20px;">Professional Memberships</h1>
 
 American Association of Physical Anthropologists
