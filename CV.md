@@ -6,7 +6,7 @@ title: "Barr - Curriculum Vitae"
 
 <a href="{{site.baseurl}}/assets/CV/WAB_CV.pdf">PDF Version of CV</a>
 
-<span id="CV-Content-To-Extract">
+<div id="CV-Content-To-Extract">
 
 <h1 style="padding-bottom:20px;">Current Position</h1>
 
@@ -60,4 +60,4 @@ American Association of Physical Anthropologists
 
 Paleoanthropology Society
 
-</span> <!-- don't delete this span, it marks the content that will be extracted to make the PDF cv -->
+</div> <!-- don't delete this div, it marks the content that will be extracted to make the PDF cv -->
