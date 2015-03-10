@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+{% include javascripts.html %}
 <div class="teaserimage">
     <div class="teaserimage-image" {% if site.cover %}style="background-image: url(/personal/assets/images/savannah.jpg)"{% endif %}>
         Teaser Image
@@ -42,7 +42,8 @@ layout: default
 
     <h5 class="index-headline normal"><span>Regular</span></h5>
     {% endif %}
-
+	
+	
     <div class="cf frame">
       {% for post in paginator.posts %}
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
@@ -61,8 +62,9 @@ layout: default
         </article>
       {% endfor %}
     </div>
-
+	<div id="footer-links"></div>
     <nav class="pagination" role="navigation">
+	
       {% if paginator.next_page %}
         <a class="newer-posts" href="{{site.baseurl}}/blog/page{{paginator.next_page}}">&larr; Older posts</a>
       {% endif %}
@@ -79,5 +81,6 @@ layout: default
 
     <!-- {{!! After all the posts, we have the previous/next pagination links }}
     {{pagination}} -->
-
+    <script>$("#footer-links").html($(".custom-links").html()).css("text-align","center");
+    $("#footer-links a").css("color","#999").css("text-decoration","none")</script>
 </main>

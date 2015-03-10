@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% include javascripts.html %}
+
 <div class="teaserimage">
     <div class="teaserimage-image" {% if site.cover %}style="background-image: url({{ site.cover }})"{% endif %}>
         Teaser Image
@@ -19,7 +21,11 @@ layout: default
 
 
 <main class="content" role="main">
-
-  {% include aboutme.html %}  
-
+  <article class="post">
+	  <sectiom class=post-content>
+  
+  		{% include aboutme.html %}  
+  
+	   </section>
+  </article>
 </main>

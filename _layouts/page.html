@@ -4,7 +4,6 @@
 <html>
   {% include head.html %}
   <body itemscope itemtype="http://schema.org/Article">
-    {% include header.html %}
 	
     <main class="content" role="main">
 		
@@ -56,9 +55,11 @@
       <div class="inner">
         <h1 class="blog-title">{{ site.title }}</h1>
         <h2 class="blog-description">{{ site.description }}</h2>
-        <a href="{{site.baseurl}}/" class="btn">Back to Overview</a>
+        <div id="footer-links"></div>
       </div>
     </div>
     {% include javascripts.html %}
   </body>
+  <script>$("#footer-links").html($(".blog-header").html());
+  $("#footer-links a").css("color","white").css("text-decoration","none")</script>
 </html>

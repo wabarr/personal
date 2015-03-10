@@ -16,7 +16,11 @@
 
     <!-- content end -->
 
-    {% include footer.html %}
+    <div id="footer-links"></div>
+    <script>$("#footer-links").html($(".custom-links").html()).css("text-align","center");
+    $("#footer-links a").css("color","#999").css("text-decoration","none")</script>
+	
+	{% include footer.html %}
     {% include javascripts.html %}
 
   </body>
