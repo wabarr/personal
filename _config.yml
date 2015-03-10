@@ -17,7 +17,8 @@ name: 'W. Andrew Barr'
 author: 'W. Andrew Barr'
 author_image: "/personal/assets/images/author.jpg"
 
-paginate:	5
+paginate: 5
+paginate_path: "/blog/page:num"
 
 url: "http://wabarr.github.io" # the base hostname & protocol for your site
 baseurl: "/personal"
