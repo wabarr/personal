@@ -16,3 +16,9 @@ title: Resources
 {% for link in site.data.links.blogs %}
 *  [ {{ link.display }} ]( {{ link.url }} ) - {{ link.description }}
 {% endfor %}
+
+<h1 style="padding-bottom:20px;">Open Source Computer Projects I Love</h1>
+
+{% for link in site.data.links.computers %}
+*  [ {{ link.display }} ]( {{ link.url }} ) - {{ link.description }}
+{% endfor %}
