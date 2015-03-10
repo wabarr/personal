@@ -8,7 +8,7 @@ title: "Barr - Curriculum Vitae"
 
 **PostDoctoral Scientist**
 
-Center for the Advance Study of Human Paleobiology. Dept of Anthropology. The George Washington University. 
+Center for the Advanced Study of Human Paleobiology. Dept of Anthropology. The George Washington University. 
 
 <h1 style="padding-bottom:20px;">Education</h1>
 
