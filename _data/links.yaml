@@ -1,7 +1,22 @@
-- display: Academic Phylogeny of Physical Anthropology
-  url: http://physanthphylogeny.org
-  description: This site tracks ancestor-descendant relationships between PhDs in physical anthropology.  I created this site with Brett Nachman and Liza Shapiro.
+myprojects:
+    - display: Academic Phylogeny of Physical Anthropology
+      url: http://physanthphylogeny.org
+      description: This site tracks ancestor-descendant relationships between PhDs in physical anthropology.  I created this site with Brett Nachman and Liza Shapiro.
 
-- display: Paleocore
-  url: http://paleocore.org
-  description: Paleocore is an NSF funded project that aims to create a data standard for paleoanthropology to facilitate data sharing. I am a member of this project, and have been heavily involved in its development.
+    - display: Paleocore
+      url: http://paleocore.org
+      description: Paleocore is an NSF funded project that aims to create a data standard for paleoanthropology to facilitate data sharing. I am a member of this project, and have been heavily involved in its development.
+
+blogs:
+    - display: Sideways look
+      url: http://cashp.gwu.edu/blog/category/blogs/sideways-look/
+      description: Bernard Wood's periodic posts here are solid gold.
+    - display: The Contemplative Mammoth
+      url: http://contemplativemammoth.wordpress.com/
+      description: paleoecology and Pleistocene climate change.
+    - display: R-Bloggers
+      url: http://www.r-bloggers.com/
+      description: aggregates content from hundreds of R bloggers
+    - display: The Pleistocene Scene
+      url: https://blogs.wellesley.edu/vanarsdale/author/avanarsd/
+      description: Adam van Arsdale's blog on human evolution, biological anthropology, and everyday life.
