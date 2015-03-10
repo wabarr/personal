@@ -20,11 +20,16 @@ Center for the Advanced Study of Human Paleobiology. Dept of Anthropology. The G
 
 <h1 style="padding-bottom:20px;">Peer Reviewed Publications</h1>
 
-{% for pub in site.data.CV_pubs %}
+{% for year in site.data.CV_pubs %}
+<h3>{{ year.year}}</h3>
+{% for pub in year.pubs %}
 
-**{{pub.year}}** - {{pub.authors}}. {{pub.title}}. *{{pub.journal}}*. {%if pub.volume %}{{pub.volume}}{% endif %}{%if pub.pages %}:{{pub.pages}}.{% endif %} {% if pub.doi %}[doi:{{pub.doi}}](http://dx.doi.org/{{pub.doi}}){% endif %}
+{{pub.authors}}. {{pub.title}}. *{{pub.journal}}*. {%if pub.volume %}{{pub.volume}}{% endif %}{%if pub.pages %}:{{pub.pages}}.{% endif %} {% if pub.doi %}[doi:{{pub.doi}}](http://dx.doi.org/{{pub.doi}}){% endif %}
 
-{% endfor%}
+{% endfor %}
+{% endfor %}
+
+
 
 <h1 style="padding-bottom:20px;">Funding and Awards</h1>
 

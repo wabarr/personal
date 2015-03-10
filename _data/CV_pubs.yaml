@@ -1,46 +1,44 @@
-- authors: Barr, WA
-  journal: Journal of Human Evolution
-  year: Accepted
-  title: "Paleoenvironments of the Shungura Formation based on ecomorphology of the bovid astragalus"
-  volume: ~
-  issue: ~
-  doi: ~
-  pages: ~
+- year: Accepted
+  pubs: 
+    - authors: Barr, WA
+      journal: Journal of Human Evolution
+      title: "Paleoenvironments of the Shungura Formation based on ecomorphology of the bovid astragalus"
+      volume: ~
+      issue: ~
+      doi: ~
+      pages: ~
 
-
-- authors: Barr, WA
-  journal: Journal of Morphology
-  year: 2014
-  title: "Functional Morphology of the Bovid Astragalus In Relation To Habitat: Controlling Phylogenetic Signal In Ecomorphology"
-  volume: 275
-  issue: ~
-  doi: 10.1002/jmor.20279
-  pages: 1201-1216
-
-
-- authors: Barr, WA and Scott, RS
-  journal: American Journal of Physical Anthropology
-  year: 2014
-  title: "Phylogenetic comparative methods complement discriminant function analysis in ecomorphology"
-  volume: 153
-  issue: ~
-  doi: 10.1002/ajpa.22462
-  pages: 663-674
-
-- authors: Scott, RS and Barr, WA
-  journal: Journal of Human Evolution
-  year: 2014
-  title: "Ecomorphology and phylogenetic risk: implications for habitat reconstruction using fossil bovids"
-  volume: 73
-  issue: ~
-  doi: 10.1016/j.jhevol.2014.02.023
-  pages: 47-57
+- year: 2014
+  pubs: 
+      - authors: Barr, WA
+        journal: Journal of Morphology
+        title: "Functional Morphology of the Bovid Astragalus In Relation To Habitat: Controlling Phylogenetic Signal In Ecomorphology"
+        volume: 275
+        issue: ~
+        doi: 10.1002/jmor.20279
+        pages: 1201-1216
   
-- authors: Reed DN, and Barr WA
-  journal: Historical Biology
-  year: 2010
-  title: "A preliminary account of the rodents from Pleistocene levels at Grotte des Contrebandiers (Smuggler's Cave), Morocco"
-  volume: 22
-  issue: ~
-  doi: 10.1080/08912960903562192
-  pages: 286-294
+      - authors: Barr, WA and Scott, RS
+        journal: American Journal of Physical Anthropology
+        title: "Phylogenetic comparative methods complement discriminant function analysis in ecomorphology"
+        volume: 153
+        issue: ~
+        doi: 10.1002/ajpa.22462
+        pages: 663-674
+    
+      - authors: Scott, RS and Barr, WA
+        journal: Journal of Human Evolution
+        title: "Ecomorphology and phylogenetic risk: implications for habitat reconstruction using fossil bovids"
+        volume: 73
+        issue: ~
+        doi: 10.1016/j.jhevol.2014.02.023
+        pages: 47-57
+- year: 2010 
+  pubs: 
+      - authors: Reed DN, and Barr WA
+        journal: Historical Biology
+        title: "A preliminary account of the rodents from Pleistocene levels at Grotte des Contrebandiers (Smuggler's Cave), Morocco"
+        volume: 22
+        issue: ~
+        doi: 10.1080/08912960903562192
+        pages: 286-294
