@@ -26,7 +26,7 @@ Center for the Advance Study of Human Paleobiology. Dept of Anthropology. The Ge
 
 {% for pub in site.data.CV_pubs %}
 
-**{{pub.year}}** - {{pub.authors}}. {{pub.title}}. *{{pub.journal}}*. {%if pub.volume %}{{pub.volume}}{% endif %}{%if pub.pages %}:{{pub.pages}}.{% endif %} [doi:{{pub.doi}}](http://dx.doi.org/{{pub.doi}})
+**{{pub.year}}** - {{pub.authors}}. {{pub.title}}. *{{pub.journal}}*. {%if pub.volume %}{{pub.volume}}{% endif %}{%if pub.pages %}:{{pub.pages}}.{% endif %} {% if pub.doi %}[doi:{{pub.doi}}](http://dx.doi.org/{{pub.doi}}){% endif %}
 
 {% endfor%}
 
