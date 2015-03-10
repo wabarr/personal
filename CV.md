@@ -4,6 +4,8 @@ permalink: /CV/
 title: "Barr - Curriculum Vitae"
 ---
 
+<a href="{{site.baseurl}}/assets/CV/WAB_CV.pdf">PDF Version of CV</a>
+
 <h1 style="padding-bottom:20px;">Current Position</h1>
 
 **PostDoctoral Scientist**
