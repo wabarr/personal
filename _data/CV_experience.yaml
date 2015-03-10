@@ -1,0 +1,67 @@
+fieldwork:
+    - date: 2014
+      project: Mille-Logya Research Project
+      location: Afar Region, Ethiopia
+      PI: Zeresenay Alemseged
+      description: I am a member of the scientific team conducting research to recover new fossil evidence of human evolution from this Plio-Pleistocene site
+    - date: 2013
+      project: Great Divide Basin Project
+      location: Wyoming
+      PI: Robert Anemone
+      description: Collected primate and mammalian fossils from Eocene sediments, and prospected for new localities
+    - date: 2010, 2012
+      project: Dikika Research Project
+      location: Afar Region, Ethiopia
+      PI: Zeresenay Alemseged
+      description: Surface collection of Plio- Pleistocene hominin and mammalian fossils. Managed GIS data collection with hand-held computers and high-precision GPS base station
+    - date: 2007, 2008, 2010
+      project: Dalquest Research Site
+      location: Big Bend Region, Texas
+      PI: E. Chris Kirk
+      description: "Surface collected primate and mammalian fossils in the Devil's Graveyard Formation. (Eocene: Late Uintan)"
+    - date: 2009
+      project: Contrebandiers Cave
+      location: Temara, Morocco
+      PI: Harrold Dibble & Utsav Schurmans
+      description: Excavated site preserving Middle Stone Age archaeology (Aterian) and hominin remains. Performed systematic analysis of rodent fauna
+appointments:
+    - date: 2014 - Present
+      title: PostDoctoral Scientist
+      institution: Center for the Advanced Study of Human Paleobiology. The George Washington University
+      description: ~
+      PI: Bernard Wood
+    - date: 2012 - Present
+      title:  Research Associate & Software Developer
+      institution: PaleoCore Project
+      description:  I am a key member of this NSF Funded project, which aims to create a data-standard for physical anthropology. I contributed heavily to the development of PaleoCore informatics tools for data sharing, and have been an organizer and participant in workshops organized by PaleoCore
+      PI: ~
+    - date: 2011
+      title: Participant
+      institution: AnthroTree Workshop in Phylogenetic Methods. Amherst, MA
+      description: ~
+      PI: ~
+    - date: 2010, 2011
+      title: Research Assistant
+      institution: "eSkeletons.org and eFossils.org. PI: John Kappelman"
+      description: ~
+      PI: ~
+    - date: 2010, 2012 
+      title: Head Teaching Assistant
+      institution: Introduction to Physical Anthropology, UT Austin
+      description: ~
+      PI: ~
+    - date: 2010
+      title: Teaching Assistant
+      institution: GIS and Remote Sensing for Archaeology and Paleontology, UT Austin
+      description: ~
+      PI: ~
+    - date: 2009
+      title: Teaching Assistant
+      institution: Human Variation, UT Austin
+      description: ~
+      PI: ~
+    - date: 2006, 2007, 2011
+      title: Teaching Assistant
+      institution: Introduction to Physical Anthropology, UT Austin
+      description: ~
+      PI: ~

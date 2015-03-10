@@ -34,3 +34,24 @@ Center for the Advance Study of Human Paleobiology. Dept of Anthropology. The Ge
 
 {% endfor %}
 
+<h1 style="padding-bottom:20px;">Professional Preparation</h1>
+
+{% for appointment in site.data.CV_experience.appointments %}
+
+**{{appointment.date}} - {{appointment.title}}**. {{appointment.institution}}. {% if appointment.description%}{{appointment.description}}. {%endif%}{% if appointment.PI%} Advisor: {{appointment.PI}}.{%endif%}
+
+{% endfor %}
+
+<h1 style="padding-bottom:20px;">Fieldwork Experience</h1>
+
+{% for project in site.data.CV_experience.fieldwork %}
+
+**{{ project.date }} - {{project.project}}**, {{project.location}}. PI: {{project.PI}}. {{project.description}}.
+
+{% endfor %}
+
+<h1 style="padding-bottom:20px;">Professional Memberships</h1>
+
+American Association of Physical Anthropologists
+
+Paleoanthropology Society
