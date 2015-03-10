@@ -20,3 +20,20 @@ blogs:
     - display: The Pleistocene Scene
       url: https://blogs.wellesley.edu/vanarsdale/author/avanarsd/
       description: Adam van Arsdale's blog on human evolution, biological anthropology, and everyday life.
+
+computers:
+    - display: Rstudio
+      url: http://rstudio.org/
+      description: cross-platform integrated environment for using R including feature-rich code editor with syntax highlighting, code-completion, docked graphics, version controo, package management etc. You will get more done in R if you use RStudio!
+    - display: ggplot2
+      url: http://had.co.nz/ggplot2/
+      description: the best graphing package for R. Beats the pants off of the base R graphics.
+    - display: Django
+      url: https://www.djangoproject.com/
+      description: A kick-ass web-application framework for perfectionists with deadlines. Written in Python.
+    - display: jekyll
+      url: http://jekyllrb.com/
+      description: a blog-aware, static site generator written in Ruby. This is a jekyll site.
+    - display: Data-Driven Docments (D3)
+      url: http://d3js.org/
+      description: a Javascript library for creating beautiful web visualizations from data.
