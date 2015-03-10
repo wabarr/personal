@@ -6,6 +6,8 @@ title: "Barr - Curriculum Vitae"
 
 <a href="{{site.baseurl}}/assets/CV/WAB_CV.pdf">PDF Version of CV</a>
 
+<span id="CV-Content-To-Extract">
+
 <h1 style="padding-bottom:20px;">Current Position</h1>
 
 **PostDoctoral Scientist**
@@ -24,7 +26,7 @@ Center for the Advance Study of Human Paleobiology. Dept of Anthropology. The Ge
 
 {% for pub in site.data.CV_pubs %}
 
-**{{pub.year}}** - {{pub.authors}}. {{pub.title}}. *{{pub.journal}}*. {%if pub.volume %}{{pub.volume}}{% endif %}{%if pub.pages %}:{{pub.pages}}.{% endif %} [{{pub.doi}}](http://dx.doi.org/{{pub.doi}})
+**{{pub.year}}** - {{pub.authors}}. {{pub.title}}. *{{pub.journal}}*. {%if pub.volume %}{{pub.volume}}{% endif %}{%if pub.pages %}:{{pub.pages}}.{% endif %} [doi:{{pub.doi}}](http://dx.doi.org/{{pub.doi}})
 
 {% endfor%}
 
@@ -57,3 +59,5 @@ Center for the Advance Study of Human Paleobiology. Dept of Anthropology. The Ge
 American Association of Physical Anthropologists
 
 Paleoanthropology Society
+
+</span> <!-- don't delete this span, it marks the content that will be extracted to make the PDF cv -->
