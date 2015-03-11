@@ -58,9 +58,12 @@ Center for the Advanced Study of Human Paleobiology. Dept of Anthropology. The G
 <h1 style="padding-bottom:20px;">Scholarly Presentations</h1>
 
 <h3>Conference Presentations with Published Abstracts</h3>
-{% for pres in site.data.CV_presentations.published%}
-**{{pres.date}}** - {{pres.authors}}. {{pres.title}}. *{{pres.journal}}*. {%if pres.volume%}{{pres.volume}}{%endif%}{%if pres.pages%}:{{pres.pages}}.{%endif%}
+{% for year in site.data.CV_conference_pres%}
+**{{ year.year}}**
+{% for pres in year.presentations %}
+{{pres.authors}}. {{pres.title}}. *{{pres.journal}}*. {%if pres.volume%}{{pres.volume}}{%endif%}{%if pres.pages%}:{{pres.pages}}.{%endif%}
 {% endfor%}
+{% endfor %}
 
 
 <h3>Invited Talks and Guest Lectures</h3>

@@ -31,9 +31,9 @@ computers:
     - display: Django
       url: https://www.djangoproject.com/
       description: A kick-ass web-application framework for perfectionists with deadlines. Written in Python.
-    - display: jekyll
+    - display: Jekyll
       url: http://jekyllrb.com/
-      description: a blog-aware, static site generator written in Ruby. This is a jekyll site.
+      description: a blog-aware, static site generator written in Ruby. You are currently looking at a Jekyll site.
     - display: Data-Driven Docments (D3)
       url: http://d3js.org/
       description: a Javascript library for creating beautiful web visualizations from data.
