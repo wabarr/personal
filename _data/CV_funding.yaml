@@ -1,55 +1,48 @@
 - year: 2014
-  grantor: Paleoanthropology Society
-  name: Travel Grant
-  purpose: for meetings in Calgary
-  amount: 500
- 
+  awards:
+    - grantor: Paleoanthropology Society
+      name: Travel Grant
+      purpose: for meetings in Calgary
+      amount: 500
 - year: 2013
-  grantor: UT Austin Graduate School
-  name: Named Continuing Fellowship
-  purpose: ~
-  amount: "29,000"
- 
-- year: 2013
-  grantor: American Association of Physical Anthropologists
-  name: Pollitzer Student Travel Award
-  purpose: ~
-  amount: 500
-
+  awards:
+    - grantor: UT Austin Graduate School
+      name: Named Continuing Fellowship
+      purpose: ~
+      amount: "29,000"
+    - grantor: American Association of Physical Anthropologists
+      name: Pollitzer Student Travel Award
+      purpose: ~
+      amount: 500
 - year: 2012
-  grantor: Wenner-Gren Foundation
-  name: Dissertation Fieldwork Grant
-  purpose: ~
-  amount: "13,317"
- 
-- year: 2007-2011
-  grantor: National Science Foundation
-  name: Graduate Research Fellowship
-  purpose: ~
-  amount: "90,000"
-  
-- year: 2008 - 2011
-  grantor: "Dept. of Anthropology, UT Austin"
-  name: Professional Development Awards
-  purpose: ~
-  amount: ~
-  
+  awards:
+    - grantor: Wenner-Gren Foundation
+      name: Dissertation Fieldwork Grant
+      purpose: ~
+      amount: "13,317"
+- year: 2008
+  awards:
+    - grantor: "Dept. of Anthropology, UT Austin. Also recieved in 2009-2011"
+      name: Professional Development Award
+      purpose: ~
+      amount: ~
 - year: 2007
-  grantor: UT Austin
-  name: Liberal Arts Graduate Research Fellowship
-  purpose: ~
-  amount: ~
+  awards:
+    - grantor: National Science Foundation
+      name: Graduate Research Fellowship
+      purpose: ~
+      amount: "90,000"
+    - grantor: UT Austin
+      name: Liberal Arts Graduate Research Fellowship
+      purpose: ~
+      amount: ~
 
-- year: 2007
-  grantor: Texas Association of Biological Anthropologists
-  name: Student Prize
-  purpose: ~
-  amount: ~
+    - grantor: Texas Association of Biological Anthropologists
+      name: Student Prize
+      purpose: ~
+      amount: ~
 
-- year: 2007, 2008
-  grantor: UT Austin
-  name: David Bruton, Jr. Graduate Fellowship
-  purpose: ~
-  amount: ~
-
-
+    - grantor: UT Austin. Also recieved in 2008
+      name: David Bruton, Jr. Graduate Fellowship
+      purpose: ~
+      amount: ~
