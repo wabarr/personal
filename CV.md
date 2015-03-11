@@ -16,7 +16,7 @@ PhD - 2014 - University of Texas at Austin. Anthropology.
 
 MA - 2008 - University of Texas at Austin. Anthropology. 
 
-BS - 2005 - Tulane University**. Anthropology, French. Cum laude.
+BS - 2005 - Tulane University. Anthropology, French. Cum laude.
 
 <h1 style="padding-bottom:20px;">Peer Reviewed Publications</h1>
 
