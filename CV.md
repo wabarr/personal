@@ -21,7 +21,9 @@ BS - 2005 - Tulane University. Anthropology, French. Cum laude.
 <h1 style="padding-bottom:20px;">Peer Reviewed Publications</h1>
 
 {% for year in site.data.CV_pubs %}
-<h3>{{ year.year}}</h3>
+
+**{{ year.year}}**
+
 {% for pub in year.pubs %}
 
 {{pub.authors}}. {{pub.title}}. *{{pub.journal}}*. {%if pub.volume %}{{pub.volume}}{% endif %}{%if pub.pages %}:{{pub.pages}}.{% endif %} {% if pub.doi %}[doi:{{pub.doi}}](http://dx.doi.org/{{pub.doi}}){% endif %}
@@ -34,7 +36,9 @@ BS - 2005 - Tulane University. Anthropology, French. Cum laude.
 <h1 style="padding-bottom:20px;">Funding and Awards</h1>
 
 {% for year in site.data.CV_funding %}
-<h3>{{ year.year }}</h3>
+
+**{{ year.year }}**
+
 {% for award in year.awards %}
 {{ award.name }} - {{ award.grantor}}{% if award.purpose %} {{ award.purpose }}{% endif %}. {% if award.amount %}${{award.amount}}{% endif %}
 
@@ -61,7 +65,9 @@ BS - 2005 - Tulane University. Anthropology, French. Cum laude.
 
 <h3>Conference Presentations with Published Abstracts</h3>
 {% for year in site.data.CV_conference_pres%}
-<h3>{{ year.year}}</h3>
+
+**{{ year.year}}**
+
 {% for pres in year.presentations %}
 {{pres.authors}}. {{pres.title}}. *{{pres.journal}}*. {%if pres.volume%}{{pres.volume}}{%endif%}{%if pres.pages%}:{{pres.pages}}.{%endif%}
 {% endfor%}
@@ -69,17 +75,21 @@ BS - 2005 - Tulane University. Anthropology, French. Cum laude.
 
 <h3>Scholarly Presentations Without Published Abstracts</h3>
 {% for year in site.data.CV_presentation_no_abstract%}
-<h3>{{ year.year}}</h3>
+
+**{{ year.year}}**
+
 {% for pres in year.presentations %}
-{{pres.authors}}. {{pres.title}}. {{pres.venue}}
+{{pres.authors}}. {{pres.title}}. {{pres.venue}}.
 {% endfor%}
 {% endfor %}
 
 <h3>Invited Talks and Guest Lectures</h3>
 {% for year in site.data.CV_invited %}
-<h3>{{ year.year }}</h3>
+
+**{{ year.year }}**
+
 {% for pres in year.presentations %}
-{{pres.details}}
+{{pres.details}}.
 {% endfor %}
 {% endfor %}
 
