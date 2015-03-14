@@ -43,17 +43,17 @@ BS - 2005 - Tulane University. Anthropology, French. Cum laude.
 
 <h1 style="padding-bottom:20px;">Professional Preparation</h1>
 
-{% for appointment in site.data.CV_experience.appointments %}
+{% for appointment in site.data.CV_appointments %}
 
-{{appointment.date}} - {{appointment.title}}. {{appointment.institution}}. {% if appointment.description%}{{appointment.description}}. {%endif%}{% if appointment.PI%} Advisor: {{appointment.PI}}.{%endif%}
+{{appointment.title}}. {{appointment.institution}}. {% if appointment.description%}{{appointment.description}}. {%endif%}{% if appointment.PI%} Advisor: {{appointment.PI}}.{%endif%} {{appointment.date}}.
 
 {% endfor %}
 
 <h1 style="padding-bottom:20px;">Fieldwork Experience</h1>
 
-{% for project in site.data.CV_experience.fieldwork %}
+{% for project in site.data.CV_fieldwork %}
 
-{{ project.date }} - {{project.project}}, {{project.location}}. PI: {{project.PI}}. {{project.description}}.
+{{project.project}}, {{project.location}}. PI: {{project.PI}}. {{project.description}}. {{project.date}}.
 
 {% endfor %}
 
@@ -67,6 +67,13 @@ BS - 2005 - Tulane University. Anthropology, French. Cum laude.
 {% endfor%}
 {% endfor %}
 
+<h3>Scholarly Presentations Without Published Abstracts</h3>
+{% for year in site.data.CV_presentation_no_abstract%}
+<h3>{{ year.year}}</h3>
+{% for pres in year.presentations %}
+{{pres.authors}}. {{pres.title}}. {{pres.venue}}
+{% endfor%}
+{% endfor %}
 
 <h3>Invited Talks and Guest Lectures</h3>
 {% for year in site.data.CV_invited %}
@@ -74,6 +81,17 @@ BS - 2005 - Tulane University. Anthropology, French. Cum laude.
 {% for pres in year.presentations %}
 {{pres.details}}
 {% endfor %}
+{% endfor %}
+
+<h1 style="padding-bottom:20px;">Professional Service</h1>
+
+{% for service in site.data.CV_service.other %}
+{{service.description}}. {{service.date}}.
+{% endfor %}
+
+<h3>Manuscript Reviews</h3>
+{% for review in site.data.CV_service.reviews %}
+{{review.publication}}. {{review.date}}.
 {% endfor %}
 
 <h1 style="padding-bottom:20px;">Professional Memberships</h1>

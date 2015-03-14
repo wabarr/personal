@@ -1,0 +1,39 @@
+- year: 2013
+  presentations:
+     - authors: Barr, WA, Brett Nachman, Liza Shapiro
+       title: "The Academic Phylogeny of Physical Anthropology"
+       venue: "Annual Meetings of the Texas Association for Biological Anthropologists. Austin, TX"
+     - authors: Reed D, Barr, WA, Urban T
+       title: "TFree as in speech and beer: open source software solutions for spatial data management in physical anthropology"
+       venue: "Annual Meetings of the Texas Association for Biological Anthropologists. Austin, TX"
+- year: 2012
+  presentations:
+      - authors: Barr, WA
+        title: "Refining hominin paleoenvironmental reconstructions using bovid ecomorphology: the role of phylogenetic comparative methods"
+        venue: "Presentation at UT Austin Paleontology Brown-Bag Seminar Series"
+      - authors: Barr, WA
+        title: "Refining hominin paleoenvironmental reconstructions with bovid ecomorphology"
+        venue: "Presentation at UT Austin Informal Physical Anthropology Semininar series"
+- year: 2011
+  presentations:
+      - authors: Barr, WA
+        title: "Ecomorphology in a phylogenetic statistical context: a case study using the bovid femur"
+        venue: "Annual Meetings of Texas Association for Biological Anthropologists. San Marcos, TX"
+- year: 2010
+  presentations:
+      - authors: Barr, WA
+        title: "Pattern or chaos? Exploring a null model of faunal turnover patterns"
+        venue: "Annual Meetings of Texas Association for Biological Anthropologists. Waco, TX"
+      - authors: Barr, WA
+        title: "Quantitative ecomorphology of mammalian dentitions: Refining a tool for reconstructing early hominin paleoenvironments"
+        venue: "Presentation at UT Austin Informal Physical Anthropology Semininar series"
+- year: 2008
+  presentations:
+      - authors: Barr, WA
+        title: Coping with taxonomic ambiguity and inter-observer variation in paleontological and paleoanthropological analyses
+        venue: "Annual Meetings of Texas Association for Biological Anthropologists. College Station, TX"
+- year: 2007
+  presentations:
+      - authors: Barr, WA
+        title: "The effects of allometric scaling patterns on the template method for estimating dimorphism"
+        venue: "Annual Meetings of Texas Association for Biological Anthropologists. Austin, TX"
