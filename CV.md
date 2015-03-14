@@ -6,9 +6,7 @@ title: "Barr - Curriculum Vitae"
 
 <h1 style="padding-bottom:20px;">Current Positions</h1>
 
-PostDoctoral Scientist & Instructor
-
-Center for the Advanced Study of Human Paleobiology. Dept of Anthropology. The George Washington University. 
+PostDoctoral Scientist & Instructor - Center for the Advanced Study of Human Paleobiology. Department of Anthropology. The George Washington University. 
 
 <h1 style="padding-bottom:20px;">Education</h1>
 
@@ -22,7 +20,7 @@ BS - 2005 - Tulane University. Anthropology, French. Cum laude.
 
 {% for year in site.data.CV_pubs %}
 
-**{{ year.year}}**
+<h4>{{ year.year}}</h4>
 
 {% for pub in year.pubs %}
 
@@ -37,7 +35,7 @@ BS - 2005 - Tulane University. Anthropology, French. Cum laude.
 
 {% for year in site.data.CV_funding %}
 
-**{{ year.year }}**
+<h4>{{ year.year }}</h4>
 
 {% for award in year.awards %}
 {{ award.name }} - {{ award.grantor}}{% if award.purpose %} {{ award.purpose }}{% endif %}. {% if award.amount %}${{award.amount}}{% endif %}
@@ -66,7 +64,7 @@ BS - 2005 - Tulane University. Anthropology, French. Cum laude.
 <h3>Conference Presentations with Published Abstracts</h3>
 {% for year in site.data.CV_conference_pres%}
 
-**{{ year.year}}**
+<h4>{{ year.year}}</h4>
 
 {% for pres in year.presentations %}
 {{pres.authors}}. {{pres.title}}. *{{pres.journal}}*. {%if pres.volume%}{{pres.volume}}{%endif%}{%if pres.pages%}:{{pres.pages}}.{%endif%}
@@ -76,7 +74,7 @@ BS - 2005 - Tulane University. Anthropology, French. Cum laude.
 <h3>Scholarly Presentations Without Published Abstracts</h3>
 {% for year in site.data.CV_presentation_no_abstract%}
 
-**{{ year.year}}**
+<h4>{{ year.year}}</h4>
 
 {% for pres in year.presentations %}
 {{pres.authors}}. {{pres.title}}. {{pres.venue}}.
@@ -86,7 +84,7 @@ BS - 2005 - Tulane University. Anthropology, French. Cum laude.
 <h3>Invited Talks and Guest Lectures</h3>
 {% for year in site.data.CV_invited %}
 
-**{{ year.year }}**
+<h4>{{ year.year }}</h4>
 
 {% for pres in year.presentations %}
 {{pres.details}}.

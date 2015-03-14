@@ -7,3 +7,8 @@
 
 basedir=/Users/wabarr/Documents/wabarr-personal-website/assets/CV/
 pandoc -H $basedir/WAB_CV_header.tex $basedir/extract_ofCV.html -o $basedir/WAB_CV.pdf
+
+
+#can also convert to markdown, and insert latex commands directly to control pagebreaks, etc
+#pandoc $basedir/extract_ofCV.html -o $basedir/WAB_CV.md
+#pandoc -H $basedir/WAB_CV_header.tex $basedir/WAB_CV.md -o $basedir/WAB_CV.pdf
