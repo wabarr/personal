@@ -4,9 +4,9 @@ permalink: /CV/
 title: "Barr - Curriculum Vitae"
 ---
 
-<h1 style="padding-bottom:20px;">Current Positions</h1>
+<h1 style="padding-bottom:20px;">Current Position</h1>
 
-PostDoctoral Scientist & Instructor - Center for the Advanced Study of Human Paleobiology. Department of Anthropology. The George Washington University. 
+PostDoctoral Scientist - Center for the Advanced Study of Human Paleobiology. Department of Anthropology. The George Washington University. 
 
 <h1 style="padding-bottom:20px;">Education</h1>
 

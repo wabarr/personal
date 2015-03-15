@@ -1,12 +1,17 @@
 - date: 2014 - Present
   title: PostDoctoral Scientist
   institution: Center for the Advanced Study of Human Paleobiology. The George Washington University
-  description: ~
+  description: I conduct research related to the paleoenvironments of human evolution.
   PI: Bernard Wood
+- date: 2015
+  title: Instructor
+  institution: Center for the Advanced Study of Human Paleobiology. The George Washington University
+  description: "I designed and taught a course entitled <i>Analytical Methods in Evolutionary Anthropology</i> for all first- and second-year graduate students. This course covered applied statistical methods and the R language"
+  PI: ~
 - date: 2012 - Present
   title:  Research Associate & Software Developer
   institution: PaleoCore Project
-  description:  I am a key member of this NSF Funded project, which aims to create a data-standard for physical anthropology. I contributed heavily to the development of PaleoCore informatics tools for data sharing, and have been an organizer and participant in workshops organized by PaleoCore
+  description:  I am a key member of this NSF Funded project, which aims to create a data-standard for physical anthropology. I contributed heavily to the development of PaleoCore informatics tools for data sharing.
   PI: ~
 - date: 2011
   title: Participant
