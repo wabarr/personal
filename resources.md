@@ -4,7 +4,7 @@ permalink: /resources/
 title: Resources
 ---
 
-<h1 style="padding-bottom:20px;">My Projects</h1>
+<h1 style="padding-bottom:20px;">Web Development Projects</h1>
 
 {% for link in site.data.links.myprojects %}
 *  [ {{ link.display }} ]( {{ link.url }} ) - {{ link.description }}
