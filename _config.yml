@@ -22,7 +22,7 @@ permalink: /ancienteco/:categories/:year/:month/:day/:title.html
 paginate: 15
 paginate_path: "/ancienteco/page:num"
 
-url: "http://wabarr.github.io" # the base hostname & protocol for your site
+url: "http://personaltest.wabarr.com" # the base hostname & protocol for your site
 #baseurl: "/personal"
 
 # social icons and sharing options
