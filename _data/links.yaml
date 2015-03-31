@@ -30,7 +30,7 @@ computers:
       description: the best graphing package for R. Beats the pants off of the base R graphics.
     - display: Django
       url: https://www.djangoproject.com/
-      description: A kick-ass web-application framework for perfectionists with deadlines. Written in Python.
+      description: A web-application framework for perfectionists with deadlines. Written in Python.
     - display: Jekyll
       url: http://jekyllrb.com/
       description: a blog-aware, static site generator written in Ruby. You are currently looking at a Jekyll site.

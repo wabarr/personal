@@ -1,1 +1,0 @@
-pandoc -H ~/Desktop/barrCV.tex "/Users/wabarr/Documents/wabarr-personal-website/_site/CV/index.html" -o "~/Desktop/wabarrCV.pdf"
