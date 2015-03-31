@@ -9,13 +9,13 @@ description: > # this means to ignore newlines until "email:"
 
 email: wabarr@gmail.com
 #blog logo
-logo: "/personal/assets/images/author.jpg"
+logo: "/assets/images/author.jpg"
 # blog cover
-cover: "/personal/assets/images/mlpcamp.jpg"
+cover: "/assets/images/mlpcamp.jpg"
 
 name: 'W. Andrew Barr'
 author: 'W. Andrew Barr'
-author_image: "/personal/assets/images/author.jpg"
+author_image: "/assets/images/author.jpg"
 
 permalink: /ancienteco/:categories/:year/:month/:day/:title.html
 
@@ -23,7 +23,7 @@ paginate: 15
 paginate_path: "/ancienteco/page:num"
 
 url: "http://wabarr.github.io" # the base hostname & protocol for your site
-baseurl: "/personal"
+#baseurl: "/personal"
 
 # social icons and sharing options
 social:
