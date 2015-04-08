@@ -34,6 +34,6 @@ computers:
     - display: Jekyll
       url: http://jekyllrb.com/
       description: a blog-aware, static site generator written in Ruby. You are currently looking at a Jekyll site.
-    - display: Data-Driven Docments (D3)
+    - display: Data-Driven Documents (D3)
       url: http://d3js.org/
       description: a Javascript library for creating beautiful web visualizations from data.
