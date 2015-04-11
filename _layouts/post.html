@@ -53,6 +53,13 @@
           </div>
           <a name="topofpage"></a>
           {{content}}
+		  <div class="tags">
+			  <ul>
+		  	{% for tag in page.tags %}
+				<li>{{ tag }}</li>
+			{% endfor %}
+			  </ul>
+		  </div>
         </section>
         <footer class="post-footer">
           <section class="share">
@@ -79,7 +86,7 @@
           </div>
           {{/post}}
           <div class="isRight">
-            <h5 class="index-headline featured"><span>Supported by</span></h5>
+            <h5 class="index-headline featured"><span>Meta</span></h5>
             <footer class="site-footer">
               <section class="poweredby">Proudly published with <a href="http://jekyllrb.com"> Jekyll</a></section>
               <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
