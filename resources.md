@@ -4,7 +4,14 @@ permalink: /resources/
 title: Resources
 ---
 
+<h1 style="padding-bottom:20px;">R Resources</h1>
+
+{% for link in site.data.links.rcourses %}
+*  [ {{ link.display }} ]( {{ link.url }} ) - {{ link.description }}
+{% endfor %}
+
 <h1 style="padding-bottom:20px;">Web Development Projects</h1>
+
 
 {% for link in site.data.links.myprojects %}
 *  [ {{ link.display }} ]( {{ link.url }} ) - {{ link.description }}

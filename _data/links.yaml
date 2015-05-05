@@ -1,3 +1,8 @@
+rcourses:
+    - display: Human Paleobiology Statistics Course, Spring 2015
+      url: http://hompal-stats.wabarr.com
+      description: This is the course website I created for the Human Paleobiology statistics course in the Center for the Advanced Study of Human Paleobiology at George Washington University. The site includes a detailed R tutorial, as well as lectures on statistical topics, with a focus on practical implementation.
+
 myprojects:
     - display: Academic Phylogeny of Physical Anthropology
       url: http://physanthphylogeny.org
