@@ -11,7 +11,7 @@ layout: default
 <header class="blog-header">
 
     <h1 class="blog-title">Ancient Eco</h1>
-    <h2 class="blog-description">{{ site.description }}</h2>
+    <br><br>
     {% include social_and_pagelinks.html %}
 </header>
 
@@ -42,8 +42,8 @@ layout: default
 
     <h5 class="index-headline normal"><span>Regular</span></h5>
     {% endif %}
-	
-	
+
+
     <div class="cf frame">
       {% for post in paginator.posts %}
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
@@ -64,7 +64,7 @@ layout: default
     </div>
 	<div id="footer-links"></div>
     <nav class="pagination" role="navigation">
-	
+
       {% if paginator.next_page %}
         <a class="newer-posts" href="{{site.baseurl}}/ancienteco/page{{paginator.next_page}}">&larr; Older posts</a>
       {% endif %}
