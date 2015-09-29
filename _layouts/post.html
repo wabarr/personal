@@ -3,6 +3,8 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
+  {%if page.tags%}<meta name="keywords" content="{% for tag in page.tags %}{{tag}},{% endfor %}">{%endif%}
+    {
   {% include googleanalytics.html %}
   <body itemscope itemtype="http://schema.org/Article">
 
@@ -53,13 +55,7 @@
           </div>
           <a name="topofpage"></a>
           {{content}}
-		  <div class="tags">
-			  <ul>
-		  	{% for tag in page.tags %}
-				<li>{{ tag }}</li>
-			{% endfor %}
-			  </ul>
-		  </div>
+
         </section>
         <footer class="post-footer">
           <section class="share">
