@@ -13,7 +13,7 @@ A long-standing hurdle to new R users has been the disconnect between using MS E
 But now, with the advent of the `readxl` package, it is seamless to read your .xls and .xlsx files into R! It is super fast, and it can be installed on any platform!  Wohoo!
 
 
-```{}
+```
 install.packages('readxl')
 library(readxl)
 theData <- read_excel("/PathToFile/myFile.xls")
