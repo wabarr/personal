@@ -13,4 +13,4 @@ The focus of our research at MLP is on uncovering new fossil evidence for human 
 
 We are conducting fieldwork in the MLP research area to understand the geological context and to systematically document the fauna during this important temporal interval. This is an international effort with an Ethiopian PI and senior scientists from institutions in France, Germany, and the United States.  
 
-![Moving sediment up a hill in a bucketline for sieving](/assets/images/bucketline.jpg)
+![Excavating a relatively complete hippo skull](/assets/images/andrew-hippo-small.jpg)
