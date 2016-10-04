@@ -2,9 +2,12 @@
 layout: page
 permalink: /CV/
 title: "Barr - Curriculum Vitae"
+CVlink: "/assets/WAB_CV.pdf"
 ---
-<a href="/assets/WAB_CV.pdf">Download CV as PDF</a>
-<object data="/assets/WAB_CV.pdf" type="application/pdf" width="100%" height="100%">
-   <p>Your browser does not support PDFs. Please download the PDF to view it: <a href="/assets/WAB_CV.pdf">Download Barr CV</a>.</p>
-</object>
+<a href="{{page.CVlink}}">Download CV as PDF</a><br>
 
+<object data="{{page.CVlink}}" type="application/pdf" width="100%" height="100%">
+<iframe src={{page.CVlink}} width="100%" height="100%" style="border: none;">
+This browser does not support PDFs. Please download the PDF to view it: <a href="{{page.CVlink}}">Download PDF</a>
+</iframe>
+</object>
