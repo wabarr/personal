@@ -12,9 +12,9 @@ myprojects:
       url: http://paleocore.org
       description: Paleocore is an NSF funded project that aims to create a data standard for paleoanthropology to facilitate data sharing. I am a member of this project, and have been heavily involved in its development.
 
-	- display: Faces of Fieldwork
-	  url: http://facesoffieldwork.com
-	  description: An outreach project showing the public the personal side of fieldwork. Stories of researchers getting dusty and dirty doing fieldwork all around the world
+    - display: Faces of Fieldwork
+      url: http://facesoffieldwork.com
+      description: An outreach project showing the public the personal side of fieldwork. Stories of researchers getting dusty and dirty doing fieldwork all around the world
 
 blogs:
     - display: Sideways look
