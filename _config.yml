@@ -16,7 +16,7 @@ name: 'W. Andrew Barr'
 author: 'W. Andrew Barr'
 author_image: "/assets/images/author.jpg"
 
-permalink: /ancienteco/:title
+permalink: /ancienteco/:title/
 
 paginate: 15
 paginate_path: "/ancienteco/page:num"
