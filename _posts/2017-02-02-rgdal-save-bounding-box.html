@@ -1,0 +1,19 @@
+---
+layout: post
+title: making a bounding box shapefile from input shapefile
+author: Andrew Barr
+tags:
+- R Tips
+---
+
+Here is a quick way to take an input shapefile, find the bounding box, and save out the resulting bounding box as a shapefile
+
+<pre>
+library(rgdal)
+shapeOfInterest <- readOGR("pathtoshapefile/shapefile.shp", "layername")
+bbox(shapeOfInterest)
+e <- as(raster::extent(bbox(shapeOfInterest)), "SpatialPolygons")
+proj4string(e) <- "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+eSPDF <- SpatialPolygonsDataFrame(e, data=data.frame(id=1))
+writeOGR(obj = eSPDF, dsn = "pathtooutfile/outshapefile.shp", layer="layername", driver = "ESRI Shapefile")
+</pre>
