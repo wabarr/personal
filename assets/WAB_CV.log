@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  18 FEB 2017 11:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  21 FEB 2017 12:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -272,19 +272,19 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 235.
  [4] [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 404.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 409.
  [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 404.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 409.
  (./WAB_CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 404.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 404.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 409.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 409.
 Package rerunfilecheck Info: File `WAB_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 404.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 409.
  ) 
 Here is how much of TeX's memory you used:
- 4912 strings out of 493089
- 73392 string characters out of 6134842
+ 4913 strings out of 493089
+ 73403 string characters out of 6134842
  163596 words of memory out of 5000000
  8375 multiletter control sequences out of 15000+600000
  15030 words of font info for 28 fonts, out of 8000000 for 9000
@@ -294,10 +294,10 @@ Here is how much of TeX's memory you used:
 exlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on WAB_CV.pdf (6 pages, 48268 bytes).
+Output written on WAB_CV.pdf (6 pages, 48533 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
- 22 named destinations out of 1000 (max. 500000)
+ 75 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
+ 23 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
