@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 MAR 2017 12:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 MAR 2017 13:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -285,7 +285,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 410.
 Here is how much of TeX's memory you used:
  4913 strings out of 493089
  73403 string characters out of 6134842
- 163596 words of memory out of 5000000
+ 164596 words of memory out of 5000000
  8375 multiletter control sequences out of 15000+600000
  15030 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -294,7 +294,7 @@ Here is how much of TeX's memory you used:
 exlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on WAB_CV.pdf (6 pages, 48490 bytes).
+Output written on WAB_CV.pdf (6 pages, 48770 bytes).
 PDF statistics:
  75 PDF objects out of 1000 (max. 8388607)
  63 compressed objects within 1 object stream
