@@ -1,8 +1,11 @@
 \documentclass{article}
 \usepackage[top=0.85in, bottom=0.9in, left=0.9in, right=0.9in]{geometry}
 \usepackage{mdwlist}
+\usepackage{enumitem}
+\usepackage{longtable}
+\usepackage{verbatim}
 \usepackage{fancyhdr}
-\usepackage[hidelinks]{hyperref}
+\usepackage[colorlinks=True, urlcolor=cyan]{hyperref}
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
 \pagestyle{fancy}
@@ -15,6 +18,12 @@
 \rfoot{}
 
 \thispagestyle{empty}
+
+%custom environment to control hanging indent in description
+\newenvironment{mylist}
+{\begin{description}[style=unboxed,leftmargin=1.3cm]}
+{\end{description}}
+
 
 \begin{document}
 \begin{center}
@@ -42,397 +51,264 @@ wabarr@gmail.com - (202) 994-3213\\
 \noindent\rule[-2mm]{\textwidth}{1pt}
 
 \section*{Education}
-\begin{description*}
-\item[] PhD - 2014 - University of Texas at Austin. Anthropology.
-\item[] MA  - 2008 - University of Texas at Austin. Anthropology.
-\item[] BS  - 2005 - Tulane University. Anthropology, French.
-\end{description*}
+
+\begin{tabular}{p{.1\textwidth}p{0.86\textwidth}}
+2014 & University of Texas at Austin. Ph.D., Anthropology. \emph{The Paleoenvironments of Early Hominins in the Omo Shungura Formation (Plio-Pleistocene, Ethiopia): Synthesizing Multiple Lines of Evidence Using Phylogenetic Ecomorphology.}\\[4pt]
+2008 & University of Texas at Austin. M.A., Anthropology. \\[4pt]
+2005 & Tulane University. B.S., Anthropology and French.\\
+\end{tabular}
 
 
 \section*{Academic Appointments}
-\begin{description*}
-\item[] {\bfseries Visiting Assistant Professor}. Center for the Advanced Study of Human Paleobiology. Department of Anthropology. The George Washington University. Spring 2016 - Present.
-\item[] {\bfseries Postdoctoral Scientist}. Center for the Advanced Study of Human Paleobiology. Department of Anthropology. The George Washington University. Advisor: Bernard Wood. Fall 2014 - Fall 2015.
-\item[] {\bfseries Research Associate}. Department of Paleobiology.  National Museum of Natural History. 2014 - Present.
-\end{description*}
+\begin{tabular}{p{.15\textwidth}p{0.8\textwidth}}
+2016 - Present & Visiting Assistant Professor. Center for the Advanced Study of Human Paleobiology. Department of Anthropology. The George Washington University.\\[4pt]
+2014 - 2016 & Postdoctoral Scientist. Center for the Advanced Study of Human Paleobiology. Department of Anthropology. The George Washington University. Advisor: Bernard Wood.\\[4pt]
+2014 - Present & Research Associate. Department of Paleobiology.  National Museum of Natural History.\\
+\end{tabular}
+
+\section*{Research Grants}
+\begin{tabular}{p{.1\textwidth}p{0.86\textwidth}}
+2015 & National Science Foundation (Archaeology) - Middle Pleistocene Hominin Behavior and Paleoecology at Farre, Chalbi Basin, Northern Kenya. PI: Ferraro. Role: Senior Scientist. \$60,000.\\[4pt]
+2012  & Dissertation Fieldwork Grant - Wenner-Gren Foundation. \$13,317.\\
+\end{tabular}
 
 
-\section*{Peer Reviewed Publications}
-\begin{description*}
+%% For publications, include Citation, with period afterward. Then include DOI if available, with no period after DOI
+
+\section*{Peer-Reviewed Publications}
+
+\begin{longtable}{p{.1\textwidth}p{0.86\textwidth}}
+
+In review & Blondel C, Rowan J, Merceron G, Bibi F,  Negash E, {\bfseries Barr WA}, Boisserie JR. Feeding ecology of Tragelaphini (Bovidae) from the Shungura Formation, Omo Valley, Ethiopia: contribution of dental wear analyses. In review at \emph{Palaeogeography, Palaeoclimatology, Palaeoecology}.\\[4pt]
+
+In review & Kemp A and {\bfseries Barr WA}. Rates of homoplasy vary among regions of the mammalian skeleton. In review at \emph{Journal of Human Evolution.}\\[4pt]
+
+In press & {\bfseries Barr WA}. \emph{Ecomorphology}. D.A. Croft, S.W. Simpson, and D.F. Su (eds.),  \emph{Methods in Paleoecology: Reconstructing Cenozoic Terrestrial Environments and Ecological Communities}. Springer (Vertebrate Paleobiology and Paleoanthropology Series), Dordrecht.\\[4pt]
+
+In press & Reed, DN, {\bfseries Barr WA}, Kappelman J. PaleoCore: an open-source platform for geospatial data integration in paleoanthropology. To be published in Anemone R, Conroy G (eds.), \emph{New Geospatial Approaches in Anthropology}. University of New Mexico Press. Albuquerque, NM.\\[4pt]
+
+
+2017 & {\bfseries Barr WA}. Signal or noise? A null model method for testing hypotheses about pulsed faunal turnover. \emph{Paleobiology}. Online Early View. \href{https://doi.org/10.1017/pab.2017.21}{doi:10.1017/pab.2017.21}\\[4pt]
+
+2017 & {\bfseries Barr WA}.Bovid locomotor functional trait distributions reflect land cover and annual precipitation in sub-Saharan Africa. \emph{Evolutionary Ecology Research}.  \href{http://www.evolutionary-ecology.com/issues/v18/n03/ddar3051.pdf}{18:253-269}.\\[4pt]
+
+2015 & {\bfseries Barr WA}. Paleoenvironments of the Shungura Formation (Plio-Pleistocene: Ethiopia) based on ecomorphology of the bovid astragalus. \emph{Journal of Human Evolution}. 88:97-107. \href{http://dx.doi.org/10.1016/j.jhevol.2015.05.002}{doi:10.1016/j.jhevol.2015.05.002}\\[4pt]
+
+2015 & Reed D, {\bfseries Barr WA}, McPherron S, Bobe R, Geraads D, Wynn J, Alemseged Z. Digital Data Collection in Paleoanthropology. \emph{Evolutionary Anthropology}. 24:238-249. \href{http://dx.doi.org/10.1002/evan.21466}{doi:10.1002/evan.21466}\\[4pt]
+
+2015 & Thompson JC, McPherron S, Bobe R, Reed DN, {\bfseries Barr WA}, Wynn J, Marean CW, Geraads D, Alemseged Z. Taphonomy of fossils from the hominin-bearing deposits at Dikika, Ethiopia. \emph{Journal of Human Evolution}. 86:112-135. \href{http://dx.doi.org/10.1016/j.jhevol.2015.06.013}{doi:10.1016/j.jhevol.2015.06.013}\\[4pt]
+
+2014 & {\bfseries Barr WA}. Functional Morphology of the Bovid Astragalus In Relation To Habitat: Controlling Phylogenetic Signal In Ecomorphology. \emph{Journal
+of Morphology}. 275:1201-1216. \href{http://dx.doi.org/10.1002/jmor.20279}{doi:10.1002/jmor.20279}\\[4pt]
+
+2014 & {\bfseries Barr WA} and Scott RS. Phylogenetic comparative methods complement discriminant function analysis in ecomorphology. \emph{American Journal
+of Physical Anthropology}. 153:663-674. \href{http://dx.doi.org/10.1002/ajpa.22462}{doi:10.1002/ajpa.22462}\\[4pt]
+
+2014 & Scott RS and {\bfseries Barr WA}. Ecomorphology and phylogenetic risk: implications for habitat reconstruction using fossil bovids.
+\emph{Journal of Human Evolution}. 73:47-57. \href{http://dx.doi.org/10.1016/j.jhevol.2014.02.023}{doi:10.1016/j.jhevol.2014.02.023}\\[4pt]
+
+2010 & Reed DN, and {\bfseries Barr WA}. A preliminary account of the rodents from Pleistocene levels at Grotte des Contrebandiers (Smuggler's Cave),
+Morocco. \emph{Historical Biology}. 22:286-294. \href{http://dx.doi.org/10.1080/08912960903562192}{doi:10.1080/08912960903562192}\\
+\end{longtable}
+
+%exclude in prep
+\begin{comment}
+\begin{mylist}
 \item[] {\bfseries In Prep}
 
 \item[] {\bfseries Barr WA}.  Beyond 'Mosaic': mammalian functional diversity and habitat heterogeneity in human evolution. To be submitted to \emph{Journal of Human Evolution}.
 \item[] {\bfseries Barr WA}.  The morphology of the bovid calcaneus: function, phylogeny, and allometric scaling. To be submitted to \emph{Journal of Morphology}.
 \item[]{\bfseries Barr WA}, Du A, Toth A, Jukar A,  Bercovici A,  Dommain A,  Dumouchel L,  Villasenor A,  Negash E, Behrensmeyer AK, and Lyons SK. Evaluating climatic and mid-domain effects on mammalian species richness at global and continental scales. To be submitted to \emph{Journal of Mammology}.
+\end{mylist}
+\end{comment}
 
 
-\end{description*}
+\section*{Research Fellowships}
+\begin{tabular}{p{.14\textwidth}p{0.82\textwidth}}
+2013 & Named Continuing Fellowship - University of Texas at Austin Graduate School. \$29,000.\\[4pt]
+2007 &  Graduate Research Fellowship - National Science Foundation. \$90,000.\\[4pt]
+2007 &  Liberal Arts Graduate Research Fellowship - University of Texas at Austin. \$1,800.\\[4pt]
+2007, 2008 &  David Bruton, Jr. Graduate Fellowship - University of Texas at Austin. \$1,000.\\
+\end{tabular}
 
-\begin{description*}
-\item[] {\bfseries In Review}
-\item[] Reed, DN, {\bfseries Barr WA}, Kappelman J. PaleoCore: an open-source platform for geospatial data integration in paleoanthropology. To be published in Anemone R, Conroy G (eds.), \emph{New Geospatial Approaches in Anthropology}. University of New Mexico Press. Albuquerque, NM.
-\item[] Blondel C, Rowan J, Merceron G, Bibi F,  Negash E, {\bfseries Barr WA}, Boisserie JR. Feeding ecology of Tragelaphini (Bovidae) from the Shungura Formation, Omo Valley, Ethiopia: contribution of dental wear analyses. In review at \emph{Palaeogeography, Palaeoclimatology, Palaeoecology}.
+\section*{Honors and Awards}
 
-\item[] Kemp A and {\bfseries Barr WA}. Rates of homoplasy vary among regions of the mammalian skeleton. In review at \emph{Journal of Human Evolution.} 
-\end{description*}
+\begin{tabular}{p{.14\textwidth}p{0.82\textwidth}}
+2015 & Travel Grant - Paleoanthropology Society for meetings in Calgary. \$500.\\[4pt]
+2013 & Pollitzer Student Travel Award - American Association of Physical Anthropologists. \$500.\\[4pt]
+2008 - 2011 & Professional Development Award - Department of Anthropology, University of Texas at Austin.\\[4pt]
+2007 & Student Prize - Texas Association of Biological Anthropologists.\\
+\end{tabular}
 
-\begin{description*}
-\item[] {\bfseries Accepted or In Press}
-\item[] {\bfseries Barr WA}. Accepted.  \emph{Ecomorphology}. To be published in D.A. Croft, S.W. Simpson, and D.F. Su (eds.),  \emph{Methods in Paleoecology: Reconstructing Cenozoic Terrestrial Environments and Ecological Communities}. Springer (Vertebrate Paleobiology and Paleoanthropology Series), Dordrecht.
-\end{description*}
+\section*{Fieldwork }
+\begin{longtable}{p{.16\textwidth}p{0.80\textwidth}}
+2014 - Present & Mille-Logya Research Project, Afar Region, Ethiopia (Plio-Pleistocene). I conduct field research to recover new fossils and to understand the environmental and ecological context of human evolution in this region. \\[4pt]
 
-\begin{description*}
-\item[] {\bfseries 2017}
-\item[] {\bfseries Barr WA}. Signal or noise? A null model method for testing hypotheses about pulsed faunal turnover. \emph{Paleobiology}. \href{https://doi.org/10.1017/pab.2017.21}{doi:10.1017/pab.2017.21}
-
-\item[] {\bfseries Barr WA}. \href{http://www.evolutionary-ecology.com/issues/v18/n03/ddar3051.pdf}{Bovid locomotor functional trait distributions reflect land cover and annual precipitation in sub-Saharan Africa.} \emph{Evolutionary Ecology Research}. 18:253-269.
-
-\end{description*}
-
-\begin{description*}
-\begin{minipage}{\linewidth}
-\item[] {\bfseries 2015}
-\item[] {\bfseries Barr WA}. Paleoenvironments of the Shungura Formation (Plio-Pleistocene: Ethiopia) based on ecomorphology of the bovid astragalus. \emph{Journal of Human Evolution}. 88:97-107. \href{http://dx.doi.org/10.1016/j.jhevol.2015.05.002}{doi:10.1016/j.jhevol.2015.05.002}
-\end{minipage}
-\item Reed D, {\bfseries Barr WA}, McPherron S, Bobe R, Geraads D, Wynn J, Alemseged Z. Digital Data Collection in Paleoanthropology. \emph{Evolutionary Anthropology}. 24:238-249. \href{http://dx.doi.org/10.1002/evan.21466}{doi:10.1002/evan.21466}
-\item[] Thompson JC, McPherron S, Bobe R, Reed DN, {\bfseries Barr WA}, Wynn J, Marean CW, Geraads D, Alemseged Z. Taphonomy of fossils from the hominin-bearing deposits at Dikika, Ethiopia. \emph{Journal of Human Evolution}. 86:112-135. \href{http://dx.doi.org/10.1016/j.jhevol.2015.06.013}{doi:10.1016/j.jhevol.2015.06.013}
+2016 & Koobi-Fora Field School, East Turkana, Kenya. I collected fossil data relating to sub-regional faunal variability in the Koobi Fora Formation from 2.0 - 1.4 Ma. I supervised four undergraduate student research projects that were organized around this topic. \\[4pt]
 
 
-\end{description*}
+2013 - 2014 & Great Divide Basin Project, Wyoming. Collected primate and mammalian fossils from Eocene sediments, and prospected for new localities. \\[4pt]
 
-\begin{description*}
-\item[] {\bfseries 2014}
-\item[] {\bfseries Barr WA}. Functional Morphology of the Bovid Astragalus In Relation To Habitat: Controlling Phylogenetic Signal In Ecomorphology. \emph{Journal
-of Morphology}. 275:1201-1216. \href{http://dx.doi.org/10.1002/jmor.20279}{doi:10.1002/jmor.20279}
+2010, 2012 & Dikika Research Project, Afar Region, Ethiopia. Surface collection of Plio- Pleistocene hominin and mammalian fossils. Managed GIS data collection with hand-held computers and high-precision GPS base station.\\[4pt]
 
-\item[] {\bfseries Barr WA} and Scott RS. Phylogenetic comparative methods complement discriminant function analysis in ecomorphology. \emph{American Journal
-of Physical Anthropology}. 153:663-674. \href{http://dx.doi.org/10.1002/ajpa.22462}{doi:10.1002/ajpa.22462}
+2007, 2008, 2010 & Dalquest Research Site, Big Bend Region, Texas. Surface collected primate and mammalian fossils in the Devil's Graveyard Formation. (Eocene: Late Uintan).\\[4pt]
 
-\item[] Scott RS and {\bfseries Barr WA}. Ecomorphology and phylogenetic risk: implications for habitat reconstruction using fossil bovids.
-\emph{Journal of Human Evolution}. 73:47-57. \href{http://dx.doi.org/10.1016/j.jhevol.2014.02.023}{doi:10.1016/j.jhevol.2014.02.023}
+2009 & Contrebandiers Cave, Temara, Morocco.  Excavated site preserving Middle Stone Age archaeology (Aterian) and hominin remains. Performed systematic analysis of rodent fauna.\\
+\end{longtable}
 
-\end{description*}
+\section*{Synergistic Activities}
+\begin{tabular}{p{.16\textwidth}p{0.8\textwidth}}
 
-\begin{description*}
-\item[] {\bfseries 2010}
-\item[] Reed DN, and {\bfseries Barr WA}. A preliminary account of the rodents from Pleistocene levels at Grotte des Contrebandiers (Smuggler's Cave),
-Morocco. \emph{Historical Biology}. 22:286-294. \href{http://dx.doi.org/10.1080/08912960903562192}{doi:10.1080/08912960903562192}
-\end{description*}
+2015 - Present & External Member. Evolution of Terrestrial Ecosystems Working Group. National Museum of Natural History.\\[4pt]
+
+2012 - Present & Research Associate and Software Developer. PaleoCore Project. I am a key member of this NSF Funded project, which aims to create a data-standard for physical anthropology. I contributed heavily to the development of PaleoCore informatics tools for data sharing.\\
+\end{tabular}
+
+\section*{Scholarly Presentations}
+\subsection*{Invited Talks, Symposia, Workshops}
+
+\begin{tabular}{p{.1\textwidth}p{0.86\textwidth}}
+2017 & Invited workshop instructor. Topic: \emph{Data Analysis, Visualization, and Comparative Methods in R}. February 16-17. University of North Carolina - Greensboro.\\[4pt]
+
+2015 & Invited participant in symposium entitled: \emph{Latest methods in reconstructing Cenozoic terrestrial environments and ecological communities}. September 10 - 12. Cleveland Museum of Natural History.\\[4pt]
+2014 & Invited participant in symposium entitled: \emph{The Role of Mosaic Habitats in Hominin Evolution}. Annual Meeting of the American Association of Physical Anthropologists. Calgary, Alberta.\\
+\end{tabular}
+\subsection*{Published Abstracts from Conference Presentations}
+
+\begin{mylist}
+\item[] *indicates undergraduate under my supervision
+\end{mylist}
+
+\begin{longtable}{p{.1\textwidth}p{0.86\textwidth}}
+2017 & {\bfseries Barr WA}. Bovid locomotor traits track land cover and mean annual precipitation: using an ecometric approach to reconstruct paleoenvironments in the Shungura Formation (Plio-Pleistocene, Ethiopia). American Association of Physical Anthropology.\\[4pt]
+2017 & Llera C*, Benitez L*, Biernat M*, Braun DR,  Hammond AS, Patterson DB, and {\bfseries Barr WA}. Subregion-scale heterogeneity in bovid abundance in the Koobi Fora Formation (Pleistocene, Northern Kenya).  American Association of Physical Anthropology.\\[4pt]
+2017 & Thompson B, Arenson J, Biernat M*,  {\bfseries Barr WA}, Reeves J, Braun DR and Hammond AS. A preliminary study of primate abundance in East Turkana collection areas relative to outcrop size. American Association of Physical Anthropology.\\[4pt]
+2017 & Enny A*, Biernat M*, Braun DR, Reda W*, Hammond AS, Patterson DB and {\bfseries Barr WA}. Exploring the impact of collection strategies on interpretations of faunal abundance: a case study from the Koobi Fora Formation (Pleistocene, northern Kenya). American Association of Physical Anthropology.\\[4pt]
+2017 & Benitez L*, Llera* C, Biernat M*, Braun DR, Hammond AS, Patterson DB, {\bfseries Barr WA}. The Implications of Faunal Abundance for Pleistocene Paleoenvironments in the Turkana Basin, Northern Kenya. Paleoanthropology Society. \\[4pt]
+
+2016 & {\bfseries Barr WA}. Signal or noise? Testing hypotheses about faunal turnover. Paleoanthropology Society. \\[4pt]
+
+2015 & {\bfseries Barr WA} and Dunn RH. A method for analyzing complex joint surfaces in ecomorphology using slope rasters derived from Digital Elevation Models. American Association of Physical Anthropology.\\[4pt]
+2015 & Thompson JC, McPherron SP, Bobe R, {\bfseries Barr WA}, Reed D, Wynn J, Marean CW, and Alemseged Z. Taphonomy of fossils from the hominin-bearing deposits at Dikika, Ethiopia. Paleoanthropology Society.\\[4pt]
+
+2014 & {\bfseries Barr WA}. Paleoenvironments of the Hadar and Shungura Formations: Synthesizing multiple lines of evidence using bovid ecomorphology. American Association of Physical Anthropology.\\[4pt]
+2014 & Kemp A and {\bfseries Barr WA}. Rates of homoplasy in the mammalian skeleton. American Association of Physical Anthropology.\\[4pt]
+
+2013 & {\bfseries Barr WA}. Ecomorphology of the bovid astragalus: body size, function, phylogeny and paleoenvironmental reconstruction. \emph{American Journal of Physical Anthropology}. 150:74.\\[4pt]
+
+2012 & {\bfseries Barr WA}. Ecomorphology in a phylogenetic statistical context: a case study using the bovid femur. \emph{American Journal of Physical Anthropology}. 147:90-91.\\[4pt]
+
+2012 & Scott RS and {\bfseries Barr WA}. Ecomorphology and phylogeny among the Bovidae: implications for habitat reconstruction. \emph{American Journal of Physical Anthropology}.\\[4pt]
+
+2012 & Kappelman JK, Keane P, Reed D, Tenbarge J, Witzel A, {\bfseries Barr WA}, Nachman BA, Russo GA. eFossils.org: a collaborative website and community database for the study of human evolution. \emph{American Journal of Physical Anthropology}.\\[4pt]
+
+2011 & Reed DN, McPherron S, {\bfseries Barr WA}, Alemseged Z, Bobe R, Geraads D, and Wynn J. A new GPS data collection methodology and data schema for integrating multiple project databases: examples from the Dikika Research Project geodatabase. \emph{American Journal of Physical Anthropology}. 144:249-250.\\[4pt]
+
+2009 & {\bfseries Barr WA}, Reed DN. Coping with taxonomic ambiguity and inter-observer variation in paleontological and paleoanthropological analyses. \emph{American Journal of Physical Anthropology}. 144:249-250.\\[4pt]
+
+2009 & Toborowsky CJ, {\bfseries Barr WA}, Lewis, RJ. Does environmental unpredictability drive lemur life histories? \emph{American Journal of Physical Anthropology}.\\[4pt]
+
+2008 & {\bfseries Barr WA}. The effects of allometric scaling patterns on the template method for estimating dimorphism. \emph{American Journal of Physical Anthropology}.\\
+\end{longtable}
+
+\subsection*{Scholarly Presentations Without Published Abstracts}
 
 
-\section*{Funding and Awards}
+\begin{longtable}{p{.1\textwidth}p{0.86\textwidth}}
+2013 & {\bfseries Barr WA}, Nachman B, Shapiro L. The Academic Phylogeny of Physical Anthropology. Annual Meetings of the Texas Association for Biological Anthropologists. Austin, TX.\\[4pt]
 
-%\begin{minipage}{\linewidth}
-%\begin{description*}
-%\item[] {\bfseries Pending}
-%\item[] National Science Foundation (RIDIR) - \emph{AnthroCore}: An open-source spatial database infrastructure for biological anthropology, archaeology and other field and collection based research in the social and behavioral sciences. PIs: Reed, DiFiore, Kappelman. Role: Senior Scientist. Amount requested: \$1,588,069.
-%\end{description*}
-%\end{minipage}
+2013 & Reed D, {\bfseries Barr WA}, Urban T. Free as in speech and beer: open source software solutions for spatial data management in physical anthropology. Annual Meetings of the Texas Association for Biological Anthropologists. Austin, TX.\\[4pt]
 
+2012 & {\bfseries Barr WA}. Refining hominin paleoenvironmental reconstructions using bovid ecomorphology: the role of phylogenetic comparative methods. Presentation at University of Texas at Austin Paleontology Brown-Bag Seminar Series.\\[4pt]
 
-\begin{description*}
-\item[] {\bfseries 2015}
-\item[] National Science Foundation (Archaeology) - Middle Pleistocene Hominin Behavior and Paleoecology at Farre, Chalbi Basin, Northern Kenya. PI: Ferraro. Role: Senior Scientist.  Amount awarded: \$60,000.
-\end{description*}
+2012 & {\bfseries Barr WA}. Refining hominin paleoenvironmental reconstructions with bovid ecomorphology. Presentation at University of Texas at Austin Informal Physical Anthropology Semininar series.\\[4pt]
 
+2011 & {\bfseries Barr WA}. Ecomorphology in a phylogenetic statistical context: a case study using the bovid femur. Annual Meetings of Texas Association for Biological Anthropologists. San Marcos, TX.\\[4pt]
 
-\begin{description*}
-\item[] {\bfseries 2014}
-\item[] Travel Grant - Paleoanthropology Society for meetings in Calgary. \$500.
-\end{description*}
+2010 & {\bfseries Barr WA}. Pattern or chaos? Exploring a null model of faunal turnover patterns. Annual Meetings of Texas Association for Biological Anthropologists. Waco, TX.\\[4pt]
 
+2010 & {\bfseries Barr WA}. Quantitative ecomorphology of mammalian dentitions: Refining a tool for reconstructing early hominin paleoenvironments. Presentation at University of Texas at Austin Informal Physical Anthropology Semininar series.\\[4pt]
 
-\begin{description*}
-\item[] {\bfseries 2013}
-\item[] Named Continuing Fellowship - University of Texas at Austin Graduate School. \$29,000.
-\item[] Pollitzer Student Travel Award - American Association of Physical Anthropologists. \$500.
-\end{description*}
+2008 & {\bfseries Barr WA}. Coping with taxonomic ambiguity and inter-observer variation in paleontological and paleoanthropological analyses. Annual Meetings of Texas Association for Biological Anthropologists. College Station, TX.\\[4pt]
 
+2007 & {\bfseries Barr WA}. The effects of allometric scaling patterns on the template method for estimating dimorphism. Annual Meetings of Texas Association for Biological Anthropologists. Austin, TX.\\
+\end{longtable}
 
-\begin{description*}
-\item[] {\bfseries 2012}
-\item[] Dissertation Fieldwork Grant - Wenner-Gren Foundation. \$13,317.
-\end{description*}
-
-\begin{description*}
-\item[] {\bfseries 2008}
-\item[] Professional Development Award - Department of Anthropology, University of Texas at Austin. Also received in 2009-2011.
-\end{description*}
-
-\begin{description*}
-\item[] {\bfseries 2007}
-\item[] Graduate Research Fellowship - National Science Foundation. \$90,000.
-
-\item[] Liberal Arts Graduate Research Fellowship - University of Texas at Austin.
-
-\item[] Student Prize - Texas Association of Biological Anthropologists.
-
-\item[] David Bruton, Jr. Graduate Fellowship - University of Texas at Austin. Also received in 2008.
-\end{description*}
 
 
 \section*{Courses Taught}
-\begin{description*}
+\begin{mylist}
 
-\item[]\emph{Introduction to Biological Anthropology}. ANTH 1001. Undergraduate survey course with enrollment of approximately 240 students. This course is designed as a survey of the field of biological anthropology, and fulfills a general science requirement. George Washington University, Anthropology. Taught Fall 2016.
+\item[]\emph{Introduction to Biological Anthropology}. ANTH 1001. Undergraduate survey of the field of biological anthropology. The George Washington University, Anthropology. Taught Fall 2016, Spring 2017.
 
-\item[] \emph{Analytical Methods in Evolutionary Anthropology}. ANTH 6413. I designed this graduate course course covering applied statistical methods (e.g, regression, ANOVA and related techniques, categorical data analysis, resampling approaches) and the R statistical programming language. This is a required course for the Hominid Paleobiology PhD program. George Washington University, Anthropology. Taught Spring 2015, Spring 2016.
+\item[] \emph{Analytical Methods in Evolutionary Anthropology}. ANTH 6413. I designed this graduate course course covering applied statistical methods (e.g, regression, ANOVA and related techniques, categorical data analysis, resampling approaches) and the R statistical programming language. This is a required course for the Hominid Paleobiology PhD program. The George Washington University, Anthropology. Taught Spring 2015, Fall 2016.
 
-\item[] \emph{Climate Change and Human Evolution}. ANTH 3491. I designed this upper level undergraduate course covering changes in global climate through evolutionary time and the impacts on evolution, with an emphasis on humans. (Previous course title: Evolutionary Impacts of Cenozoic Climate Change). George Washington University, Anthropology. Taught Spring 2016.
+\item[] \emph{Climate Change and Human Evolution}. ANTH 3491. I designed this upper level undergraduate course covering changes in global climate through evolutionary time and the impacts on evolution, with an emphasis on humans. The George Washington University, Anthropology. Taught Spring 2016, Spring 2017.
 
-\item[] \emph{Public Understanding of Science}. HOMP 8302.  Graduate course in which students complete semester-long public service internships. Student projects target underserved Washington, DC-area public schools and general audiences at public museums with a goal of increasing scientific literacy and creating interest in scientific careers. George Washington University, Anthropology. Taught Spring 2016.
+\item[] \emph{Public Understanding of Science}. HOMP 8302.  Graduate course in which students complete semester-long public service internships. Student projects target underserved Washington, DC-area public schools and general audiences at public museums with a goal of increasing scientific literacy and creating interest in scientific careers. The George Washington University, Anthropology. Taught Spring 2016.
 
 \item[] \emph{GIS and Remote Sensing for Archaeology and Paleontology}. ANT 391 / GRG 396. Teaching Assistant.  University of Texas at Austin, Anthropology. 2010.
 
 \item[] \emph{Human Variation}. ANT 394C. Teaching Assistant. University of Texas at Austin, Anthropology. 2009.
 
 \item[] \emph{Introduction to Physical Anthropology}. ANT 301. Teaching Assistant. University of Texas at Austin, Anthropology. 2006, 2007, 2010, 2011, 2012.
-\end{description*}
+\end{mylist}
 
 \section*{Student Advising}
-\begin{description*}
-\item[] {\bfseries PhD students, committee member}
-\item[] David Patterson (PhD awarded in 2016, Center for the Advanced Study of Human Paleobiology. George Washington University)
-\item[] Laurence Dumouchel (Center for the Advanced Study of Human Paleobiology. George Washington University)
-\item[] Chrisandra Kufeldt (Center for the Advanced Study of Human Paleobiology. George Washington University)
-\item[] Vance Powell (Center for the Advanced Study of Human Paleobiology. George Washington University)
-\end{description*}
+\subsection*{PhD students, committee member}
+\begin{tabular}{p{.14\textwidth}p{0.82\textwidth}}
+2017 & Chrisandra Kufeldt (The George Washington University)\\[4pt]
+2016 & David Patterson (The George Washington University)\\[4pt]
+In progress & Laurence Dumouchel (The George Washington University)\\[4pt]
+In progress & Vance Powell (The George Washington University)\\
+\end{tabular}
+
+\subsection*{Undergraduate Assistants}
+\begin{tabular}{p{.14\textwidth}p{0.82\textwidth}}
+2016 -2017 & Maryse Biernat (Stockton University)\\[4pt]
+2016 - 2017 & Elliot Greiner (The George Washington University)\\
+\end{tabular}
+
+\subsection*{Koobi Fora Field School Students}
+\begin{tabular}{p{.14\textwidth}p{0.82\textwidth}}
+2016 & Lorena Benitez (Harvard University)\\[4pt]
+2016 & Alyssa Enny (Stockton University)\\[4pt]
+2016 & Catherine Llera (University of Florida)\\[4pt]
+2016 & Weldeyared Reda (Aksum University, Ethiopia)\\
+\end{tabular}
 
-\begin{description*}
-\item[] {\bfseries Undergraduate Assistants}
-\item[] Maryse Biernat (Stockton University)
-\item[] Elliot Greiner (George Washington University)
-\end{description*}
-
-\begin{description*}
-\item[] {\bfseries Koobi Fora Field School Students}
-\item[] Lorena Benitez (Harvard University)
-\item[] Alyssa Enny (Stockton University)
-\item[] Catherine Llera (University of Florida)
-\item[] Weldeyared Reda (Aksum University, Ethiopia)
-\end{description*}
-
-\section*{Professional Preparation}
-\begin{description*}
-
-\item[] External Member. Evolution of Terrestrial Ecosystems Working Group. National Museum of Natural History. 2015 - Present.
-
-\item[] Research Associate and Software Developer. PaleoCore Project. I am a key member of this NSF Funded project, which aims to create a data-standard for physical anthropology. I contributed heavily to the development of PaleoCore informatics tools for data sharing. 2012 - Present.
-
-\item[] Participant. AnthroTree Workshop in Phylogenetic Methods. Amherst, MA. 2011.
-
-\item[] Research Assistant. eSkeletons.org and eFossils.org. PI: John Kappelman. 2010, 2011.
-
-\end{description*}
-
-
-\section*{Fieldwork Experience}
-\begin{description*}
-
-\item[] Koobi-Fora Field School, East Turkana, Kenya. Directors: David Braun and Purity Kiura. I collected fossil data relating to sub-regional faunal variability in the Koobi Fora Formation from 2.0 - 1.4 Ma. I supervised four undergraduate student research projects that were organized around this topic. Summer 2016. 
-
-\item[] Mille-Logya Research Project, Afar Region, Ethiopia. PI: Zeresenay Alemseged. I am a member of the scientific team conducting research to recover new fossil evidence of human evolution from this Plio-Pleistocene site. 2014.
-
-\item[] Great Divide Basin Project, Wyoming. PI: Robert Anemone. Collected primate and mammalian fossils from Eocene sediments, and prospected for new localities. 2013, 2014.
-
-\item[] Dikika Research Project, Afar Region, Ethiopia. PI: Zeresenay Alemseged. Surface collection of Plio- Pleistocene hominin and mammalian fossils. Managed GIS data collection with hand-held computers and high-precision GPS base station. 2010, 2012.
-
-\item[] Dalquest Research Site, Big Bend Region, Texas. PI: E. Chris Kirk. Surface collected primate and mammalian fossils in the Devil's Graveyard Formation. (Eocene: Late Uintan). 2007, 2008, 2010.
-
-\item[] Contrebandiers Cave, Temara, Morocco. PI: Harrold Dibble \& Utsav Schurmans. Excavated site preserving Middle Stone Age archaeology (Aterian) and hominin remains. Performed systematic analysis of rodent fauna. 2009.
-\end{description*}
-
-\section*{Scholarly Presentations}
-
-\subsection*{Published Abstracts from Conference Presentations}
-
-\begin{description*}
-\item[] *indicates undergraduate under my supervision
-\end{description*}
-
-\begin{description*}
-\begin{minipage}{\linewidth}
-\item[] {\bfseries 2017}
-\item[] {\bfseries Barr WA}. Bovid locomotor traits track land cover and mean annual precipitation: using an ecometric approach to reconstruct paleoenvironments in the Shungura Formation (Plio-Pleistocene, Ethiopia). American Association of Physical Anthropology.
-\item[] Llera C*, Benitez L*, Biernat M*, Braun DR,  Hammond AS, Patterson DB, and {\bfseries Barr WA}. Subregion-scale heterogeneity in bovid abundance in the Koobi Fora Formation (Pleistocene, Northern Kenya).  American Association of Physical Anthropology.
-\item[] Thompson B, Arenson J, Biernat M*,  {\bfseries Barr WA}, Reeves J, Braun DR and Hammond AS. A preliminary study of primate abundance in East Turkana collection areas relative to outcrop size. American Association of Physical Anthropology.
-\item[] Enny A*, Biernat M*, Braun DR, Reda W*, Hammond AS, Patterson DB and {\bfseries Barr WA}. Exploring the impact of collection strategies on interpretations of faunal abundance: a case study from the Koobi Fora Formation (Pleistocene, northern Kenya). American Association of Physical Anthropology.
-\item[] Benitez L*, Llera* C, Biernat M*, Braun DR, Hammond AS, Patterson DB, {\bfseries Barr WA}. The Implications of Faunal Abundance for Pleistocene Paleoenvironments in the Turkana Basin, Northern Kenya. Paleoanthropology Society. 
-\end{minipage}
-\end{description*}
-
-
-
-\begin{description*}
-\begin{minipage}{\linewidth}
-\item[] {\bfseries 2016}
-\item[] {\bfseries Barr WA}. Signal or noise? Testing hypotheses about faunal turnover. Paleoanthropology Society. 
-\end{minipage}
-\end{description*}
-
-
-
-\begin{description*}
-\begin{minipage}{\linewidth}
-\item[] {\bfseries 2015}
-\item[] {\bfseries Barr WA} and Dunn RH. A method for analyzing complex joint surfaces in ecomorphology using slope rasters derived from Digital Elevation Models. American Association of Physical Anthropology.
-\item[] Thompson JC, McPherron SP, Bobe R, {\bfseries Barr WA}, Reed D, Wynn J, Marean CW, and Alemseged Z. Taphonomy of fossils from the hominin-bearing deposits at Dikika, Ethiopia. Paleoanthropology Society.
-\end{minipage}
-\end{description*}
-
-
-
-\begin{description*}
-\begin{minipage}{\linewidth}
-\item[] {\bfseries 2014}
-\item[] {\bfseries Barr WA}. Paleoenvironments of the Hadar and Shungura Formations: Synthesizing multiple lines of evidence using bovid ecomorphology. American Association of Physical Anthropology.
-\item[] Kemp A and {\bfseries Barr WA}. Rates of homoplasy in the mammalian skeleton. American Association of Physical Anthropology.
-\end{minipage}
-\end{description*}
-
-
-
-\begin{description*}
-\begin{minipage}{\linewidth}
-\item[] {\bfseries 2013}
-\item[] {\bfseries Barr WA}. Ecomorphology of the bovid astragalus: body size, function, phylogeny and paleoenvironmental reconstruction. \emph{American Journal of Physical Anthropology}. 150:74.
-\end{minipage}
-\end{description*}
-
-
-
-\begin{description*}
-\begin{minipage}{\linewidth}
-\item[] {\bfseries 2012}
-\item[] {\bfseries Barr WA}. Ecomorphology in a phylogenetic statistical context: a case study using the bovid femur. \emph{American Journal of Physical Anthropology}. 147:90-91.
-
-\item[] Scott RS and {\bfseries Barr WA}. Ecomorphology and phylogeny among the Bovidae: implications for habitat reconstruction. \emph{American Journal of Physical Anthropology}.
-
-\item[] Kappelman JK, Keane P, Reed D, Tenbarge J, Witzel A, {\bfseries Barr WA}, Nachman BA, Russo GA. eFossils.org: a collaborative website and community database for the study of human evolution. \emph{American Journal of Physical Anthropology}.
-\end{minipage}
-\end{description*}
-
-
-
-\begin{description*}
-\begin{minipage}{\linewidth}
-\item[] {\bfseries 2011}
-\item[] Reed DN, McPherron S, {\bfseries Barr WA}, Alemseged Z, Bobe R, Geraads D, and Wynn J. A new GPS data collection methodology and data schema for integrating multiple project databases: examples from the Dikika Research Project geodatabase. \emph{American Journal of Physical Anthropology}. 144:249-250.
-\end{minipage}
-\end{description*}
-
-
-
-\begin{description*}
-\begin{minipage}{\linewidth}
-\item[] {\bfseries 2009}
-\item[] {\bfseries Barr WA}, Reed DN. Coping with taxonomic ambiguity and inter-observer variation in paleontological and paleoanthropological analyses. \emph{American Journal of Physical Anthropology}. 144:249-250.
-
-\item[] Toborowsky CJ, {\bfseries Barr WA}, Lewis, RJ. Does environmental unpredictability drive lemur life histories? \emph{American Journal of Physical Anthropology}.
-\end{minipage}
-\end{description*}
-
-
-
-\begin{description*}
-\begin{minipage}{\linewidth}
-\item[] {\bfseries 2008}
-\item[] {\bfseries Barr WA}. The effects of allometric scaling patterns on the template method for estimating dimorphism. \emph{American Journal of Physical Anthropology}.
-\end{minipage}
-\end{description*}
-
-\subsection*{Scholarly Presentations Without Published Abstracts}
-
-
-\begin{description*}
-\begin{minipage}{\linewidth}
-\item[] {\bfseries 2013}
-\item[] {\bfseries Barr WA}, Nachman B, Shapiro L. The Academic Phylogeny of Physical Anthropology. Annual Meetings of the Texas Association for Biological Anthropologists. Austin, TX.
-
-\item[] Reed D, {\bfseries Barr WA}, Urban T. Free as in speech and beer: open source software solutions for spatial data management in physical anthropology. Annual Meetings of the Texas Association for Biological Anthropologists. Austin, TX.
-\end{minipage}
-\end{description*}
-
-
-
-\begin{description*}
-\begin{minipage}{\linewidth}
-\item[] {\bfseries 2012}
-\item[] {\bfseries Barr WA}. Refining hominin paleoenvironmental reconstructions using bovid ecomorphology: the role of phylogenetic comparative methods. Presentation at University of Texas at Austin Paleontology Brown-Bag Seminar Series.
-
-\item[] {\bfseries Barr WA}. Refining hominin paleoenvironmental reconstructions with bovid ecomorphology. Presentation at University of Texas at Austin Informal Physical Anthropology Semininar series.
-\end{minipage}
-\end{description*}
-
-
-\begin{description*}
-\begin{minipage}{\linewidth}
-\item[] {\bfseries 2011}
-\item[] {\bfseries Barr WA}. Ecomorphology in a phylogenetic statistical context: a case study using the bovid femur. Annual Meetings of Texas Association for Biological Anthropologists. San Marcos, TX.
-\end{minipage}
-\end{description*}
-
-
-\begin{description*}
-\item[] {\bfseries 2010}
-\item[] {\bfseries Barr WA}. Pattern or chaos? Exploring a null model of faunal turnover patterns. Annual Meetings of Texas Association for Biological Anthropologists. Waco, TX.
-
-\item[] {\bfseries Barr WA}. Quantitative ecomorphology of mammalian dentitions: Refining a tool for reconstructing early hominin paleoenvironments. Presentation at University of Texas at Austin Informal Physical Anthropology Semininar series.
-\end{description*}
-\begin{description*}
-\item[] {\bfseries 2008}
-\item[] {\bfseries Barr WA}. Coping with taxonomic ambiguity and inter-observer variation in paleontological and paleoanthropological analyses. Annual Meetings of Texas Association for Biological Anthropologists. College Station, TX.
-\end{description*}
-\begin{description*}
-\item[] {\bfseries 2007}
-\item[] {\bfseries Barr WA}. The effects of allometric scaling patterns on the template method for estimating dimorphism. Annual Meetings of Texas Association for Biological Anthropologists. Austin, TX.
-\end{description*}
-
-
-\subsection*{Invited Talks, Symposia, Workshops, Guest Lectures}
-
-\begin{description*}
-\item[] {\bfseries 2017}
-\item[] Invited workshop presenter. Topic: \emph{Data Analysis, Visualization, and Comparative Methods in R}. February 16-17. University of North Carolina - Greensboro. 
-
-\begin{minipage}{\linewidth}
-\item[] {\bfseries 2015}
-\item[] Invited participant in symposium entitled: \emph{Latest methods in reconstructing Cenozoic terrestrial environments and ecological communities}. September 10 - 12. Cleveland Museum of Natural History. 
-\end{minipage}
-\item[] {\bfseries 2014}
-\item[] Invited participant in symposium entitled: \emph{The Role of Mosaic Habitats in Hominin Evolution}. Annual Meeting of the American Association of Physical Anthropologists. Calgary, Alberta. 
-\item[] {\bfseries 2013}
-\item[]  Guest Lecture for Denn\'{e} Reed in graduate-level Statistical Methods course at University of Texas at Austin. Topic: Data reshaping and advanced plotting with ggplot2.
-\item[] Guest Lecture for E. Christopher Kirk Introduction to Physical Anthropology course at University of Texas at Austin. Topic: Primate Evolution.
-\end{description*}
 
 
 \section*{Professional Service}
-\begin{description*}
-\item[] Coordinator, Capstone Seminar - Coordinated speakers and organize the academic program for this departmental seminar in the Center for the Advanced Study of Human Paleobiology at The George Washington University. 2014-2015.
-\item[] \href{http://www.physanthphylogeny.org}{Academic Phylogeny of Physical Anthropology} - In collaboration with Liza Shapiro and Brett Nachman, I created this website as a public resource that tracks academic lineages of Physical Anthropology PhDs. The site has had over 1700 user submissions. 2013-present.
-\item[] Volunteer, Explore UT - University wide K-12 educational open house. Helped organize and run activity ``Leaping Lemurs of Madagascar'' on locomotion and conservation of lemurs. 2010, 2011.
-\item[] Reviewer - University of Texas Liberal Arts Graduate Research Fellowship. Evaluated grant proposals from students competing for \$50,000 in grant funds. 2008.
-\item[] Coordinator - Informal Physical Anthropology Seminar Series, University of Texas at Austin. Responsible for planning weekly seminars and recruiting speakers. 2008.
-\end{description*}
+\begin{longtable}{p{.14\textwidth}p{0.82\textwidth}}
+2014 - 2015 & Coordinator, Capstone Seminar - Coordinated speakers and organize the academic program for this departmental seminar in the Center for the Advanced Study of Human Paleobiology at The George Washington University. \\[4pt]
+2013 - present &  \href{https://www.physanthphylogeny.org}{Academic Phylogeny of Physical Anthropology} - In collaboration with Liza Shapiro and Brett Nachman, I created this website as a public resource that tracks academic lineages of Physical Anthropology PhDs. The site has had over 2200 user submissions.\\[4pt]
+2014-2015 & Volunteer, Explore UT - University wide K-12 educational open house. Helped organize and run activity ``Leaping Lemurs of Madagascar'' on locomotion and conservation of lemurs.\\[4pt]
+ 2008 & Reviewer - University of Texas Liberal Arts Graduate Research Fellowship. Evaluated grant proposals from students competing for \$50,000 in grant funds.\\
 
-\subsection*{Media Coverage}
-\begin{description*}
-\item[] February 26, 2015. \emph{GWU aims to be among top research schools.} \href{http://www.washingtonpost.com/local/education/gwu-aims-to-be-among-top-research-schools/2015/03/03/491da24e-c1f1-11e4-9ec2-b418f57a4a99_gallery.html}{Washington Post}.
-\end{description*}
+\end{longtable}
 
-\subsection*{Manuscript Reviews}
-\begin{description*}
-\item[] Journal of Human Evolution. 2014, 2015, 2017.
-\item[] Comptes Rendus Palevol. 2017.
-\item[] Nature Ecology \& Evolution. 2016.
-\item[] International Journal of Primatology. 2014.
-\item[] Methods in Ecology and Evolution. 2012.
-\item[] Manning Publications (book proposal review). 2012.
-\end{description*}
-\subsection*{Professional Memberships}
-\begin{description*}
+
+\section*{Media Coverage}
+\begin{longtable}{p{.14\textwidth}p{0.82\textwidth}}
+2017 &  Online coverage of \emph{Signal or noise? A null model method for testing hypotheses about pulsed faunal turnover} in \href{https://www.sciencedaily.com/releases/2017/08/170804100410.htm}{Science Daily}, \href{https://phys.org/news/2017-08-paper-genus-homo-response-environmental.html}{phys.org}, \href{https://gwtoday.gwu.edu/origin-human-genus-may-have-occurred-chance}{GW Today} and others. \\[4pt]
+2015 & \emph{GWU aims to be among top research schools.} \href{http://www.washingtonpost.com/local/education/gwu-aims-to-be-among-top-research-schools/2015/03/03/491da24e-c1f1-11e4-9ec2-b418f57a4a99_gallery.html}{Washington Post}.\\
+\end{longtable}
+
+\section*{Manuscript Reviews}
+\begin{tabular}{l l}
+2014, 2015, 2017 & Journal of Human Evolution\\[4pt]
+2017 & Comptes Rendus Palevol\\[4pt]
+2016 & Nature Ecology \& Evolution\\[4pt]
+2014 & International Journal of Primatology\\[4pt]
+2012 & Methods in Ecology and Evolution\\[4pt]
+2012 & Manning Publications (book proposal review)\\
+\end{tabular}
+
+\section*{Professional Memberships}
+\begin{mylist}
 \item[] American Association of Physical Anthropologists
 \item[] Paleoanthropology Society
-\end{description*}
+\end{mylist}
+
 \end{document}
