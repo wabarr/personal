@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 SEP 2017 13:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  18 SEP 2017 09:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -365,11 +365,14 @@ Overfull \hbox (4.63484pt too wide) in alignment at lines 141--154
  []
 
 
+Overfull \vbox (1.11392pt too high) has occurred while \output is active []
+
+
+[2]
 Overfull \hbox (4.63484pt too wide) in paragraph at lines 157--163
 [] 
  []
 
-[2]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 165.
 
@@ -439,7 +442,7 @@ Here is how much of TeX's memory you used:
 exlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on WAB_CV.pdf (6 pages, 48930 bytes).
+Output written on WAB_CV.pdf (6 pages, 48935 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  84 compressed objects within 1 object stream
