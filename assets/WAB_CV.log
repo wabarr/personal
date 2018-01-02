@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 DEC 2017 14:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  2 JAN 2018 16:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -364,10 +364,6 @@ Overfull \hbox (4.63484pt too wide) in alignment at lines 147--160
  [] [] 
  []
 
-
-Overfull \vbox (1.11392pt too high) has occurred while \output is active []
-
-
 [2]
 Overfull \hbox (4.63484pt too wide) in paragraph at lines 163--169
 [] 
@@ -437,12 +433,12 @@ Here is how much of TeX's memory you used:
  9426 multiletter control sequences out of 15000+600000
  15030 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,11n,43p,472b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,11n,43p,468b,424s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/
 2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/te
 xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on WAB_CV.pdf (6 pages, 49006 bytes).
+Output written on WAB_CV.pdf (6 pages, 49385 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  84 compressed objects within 1 object stream
