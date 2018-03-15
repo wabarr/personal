@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  27 FEB 2018 10:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  15 MAR 2018 09:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -438,7 +438,7 @@ Here is how much of TeX's memory you used:
 exlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/
 2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/te
 xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on WAB_CV.pdf (6 pages, 49476 bytes).
+Output written on WAB_CV.pdf (6 pages, 49580 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  84 compressed objects within 1 object stream
