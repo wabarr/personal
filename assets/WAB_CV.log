@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  17 MAR 2018 10:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  24 JUL 2018 08:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -336,95 +336,95 @@ Overfull \hbox (4.63484pt too wide) in paragraph at lines 70--80
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 88.
 
-Underfull \hbox (badness 1215) in paragraph at lines 119--120
+Underfull \hbox (badness 1215) in paragraph at lines 120--121
 []|\OT1/phv/m/n/10 Scott RS and \OT1/phv/b/n/10 Barr WA\OT1/phv/m/n/10 . Eco-mo
 r-phol-ogy and phy-lo-ge-netic risk: im-pli-ca-tions for habi-
  []
 
 
-Underfull \hbox (badness 4846) in paragraph at lines 119--120
+Underfull \hbox (badness 4846) in paragraph at lines 120--121
 \OT1/phv/m/n/10 tat re-con-struc-tion us-ing fos-sil bovids. \OT1/phv/m/sl/10 J
 our-nal of Hu-man Evo-lu-tion\OT1/phv/m/n/10 . 73:47-57.
  []
 
 
-Overfull \hbox (4.63484pt too wide) in alignment at lines 86--124
+Overfull \hbox (4.63484pt too wide) in alignment at lines 86--125
  [] [] 
  []
 
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (4.63484pt too wide) in paragraph at lines 140--146
+Overfull \hbox (4.63484pt too wide) in paragraph at lines 141--147
 [] 
  []
 
 
-Overfull \hbox (4.63484pt too wide) in alignment at lines 148--161
+Overfull \hbox (4.63484pt too wide) in alignment at lines 149--162
  [] [] 
  []
 
 [2]
-Overfull \hbox (4.63484pt too wide) in paragraph at lines 164--170
+Overfull \hbox (4.63484pt too wide) in paragraph at lines 165--171
 [] 
  []
 
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 172.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 173.
 
-Overfull \hbox (4.63484pt too wide) in paragraph at lines 174--180
+Overfull \hbox (4.63484pt too wide) in paragraph at lines 175--181
 [] 
  []
 
 
-Overfull \hbox (4.63484pt too wide) in alignment at lines 186--216
+Overfull \hbox (4.63484pt too wide) in alignment at lines 187--217
  [] [] 
  []
 
 [3]
-Overfull \hbox (4.63484pt too wide) in alignment at lines 221--239
+Overfull \hbox (4.63484pt too wide) in alignment at lines 222--240
  [] [] 
  []
 
 [4]
-Overfull \hbox (4.63484pt too wide) in paragraph at lines 263--269
+Overfull \hbox (4.63484pt too wide) in paragraph at lines 264--270
 [] 
  []
 
 
-Overfull \hbox (4.63484pt too wide) in paragraph at lines 271--275
+Overfull \hbox (4.63484pt too wide) in paragraph at lines 272--276
 [] 
  []
 
 
-Overfull \hbox (4.63484pt too wide) in paragraph at lines 277--283
+Overfull \hbox (4.63484pt too wide) in paragraph at lines 278--284
 [] 
  []
 
 [5]
-Overfull \hbox (4.63484pt too wide) in alignment at lines 287--293
+Overfull \hbox (4.63484pt too wide) in alignment at lines 288--294
  [] [] 
  []
 
 
-Overfull \hbox (4.63484pt too wide) in alignment at lines 296--300
+Overfull \hbox (4.63484pt too wide) in alignment at lines 297--301
  [] [] 
  []
 
 
-Overfull \hbox (4.63484pt too wide) in alignment at lines 303--307
+Overfull \hbox (4.63484pt too wide) in alignment at lines 304--308
  [] [] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 355.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 356.
 [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 355.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 356.
  (./WAB_CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 355.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 355.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 356.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 356.
 Package rerunfilecheck Info: File `WAB_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 355.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 356.
  ) 
 Here is how much of TeX's memory you used:
  5932 strings out of 492995
@@ -438,10 +438,10 @@ Here is how much of TeX's memory you used:
 exlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/
 2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/te
 xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on WAB_CV.pdf (6 pages, 49049 bytes).
+Output written on WAB_CV.pdf (6 pages, 49127 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
+ 97 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
  35 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
